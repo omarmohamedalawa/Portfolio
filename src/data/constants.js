@@ -79,7 +79,7 @@ export const education = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/v2/D4E0BAQESB-XlT0p8UA/company-logo_200_200/company-logo_200_200/0/1706425296243?e=1743638400&v=beta&t=ycQOM5vcOpZlY0F104oBo3nxWRNXbEc7M9EJ6YbU16o",
+    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Ain_Shams_University_Hospitals_Logo.jpg?raw=true",
     role: "Data Analyst",
     company: "Ain Shams University Hospitals",
     date: "Jan 2024 - present",
@@ -93,7 +93,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/v2/D4E0BAQESB-XlT0p8UA/company-logo_200_200/company-logo_200_200/0/1706425296243?e=1743638400&v=beta&t=ycQOM5vcOpZlY0F104oBo3nxWRNXbEc7M9EJ6YbU16o",
+    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Ain_Shams_University_Hospitals_Logo.jpg?raw=true",
     role: "HIS Implementation Specialist",
     company: "Ain Shams University Hospitals",
     date: "Jan 2024 - present",
