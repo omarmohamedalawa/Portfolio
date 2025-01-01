@@ -22,7 +22,7 @@ export const Bio = {
 export const education = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/v2/C510BAQE3-Eg1CLWQlw/company-logo_200_200/company-logo_200_200/0/1631323438585?e=1743638400&v=beta&t=Vmw_xOpD0n1JHMlzWFWVkPNfUJAsGn8rn7vq9HjJ6Jg",
+    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/ElShorouk_logo.png?raw=true",
     school: "El-Shorouk Academy",
     date: "Oct 2018 - May 2023",
     grade: " Good",
@@ -31,7 +31,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/v2/C4D0BAQHaD_EFdPUo1A/company-logo_200_200/company-logo_200_200/0/1630564581522?e=1743638400&v=beta&t=Ol968dHI7_LijGQphJffushL4O3q1-Gk6v1AC1F9eX0",
+    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/nti_logo.png?raw=true",
     school: "National Telecommunication Institute",
     date: "Jul 2024 - sep 2024",
     grade: " 89%",
@@ -40,7 +40,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://media.licdn.com/dms/image/v2/C4D0BAQFwcvfBSWGiYg/company-logo_200_200/company-logo_200_200/0/1630529615842?e=1743638400&v=beta&t=VbMTSS4_-fItekTaM4HYl3_CUf5Bo_Yr-9McxSnMklE",
+    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/instant_logo.jpg?raw=true",
     school: "Instant Software Solutions",
     date: "Aug 2022 - Aug 2023",
     grade: " excellent",
@@ -49,7 +49,7 @@ export const education = [
   },
   {
     id: 3,
-    img: "https://t0.gstatic.com/images?q=tbn:ANd9GcRnOwv1cg0ecoaMA5yDI5pbf4jOW_Jhjv3BZeONrztC2Y0v_Wcm",
+    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/huawei_logo_PNG1.png?raw=true",
     school: "Huawei ICT Acadmy",
     date: "Aug 2022",
     grade: " Certified",
@@ -58,7 +58,7 @@ export const education = [
   },
   {
     id: 3,
-    img: "https://t0.gstatic.com/images?q=tbn:ANd9GcRnOwv1cg0ecoaMA5yDI5pbf4jOW_Jhjv3BZeONrztC2Y0v_Wcm",
+    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/huawei_logo_PNG1.png?raw=true",
     school: "Huawei ICT Acadmy",
     date: "May 2022",
     grade: " Certified",
@@ -67,7 +67,7 @@ export const education = [
   },
   {
     id: 4,
-    img: "https://t0.gstatic.com/images?q=tbn:ANd9GcRnOwv1cg0ecoaMA5yDI5pbf4jOW_Jhjv3BZeONrztC2Y0v_Wcm",
+    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/huawei_logo_PNG1.png?raw=true",
     school: "Huawei ICT Acadmy",
     date: "Dec 2021",
     grade: " Certified",
@@ -109,7 +109,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://t0.gstatic.com/images?q=tbn:ANd9GcRnOwv1cg0ecoaMA5yDI5pbf4jOW_Jhjv3BZeONrztC2Y0v_Wcm",
+    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/huawei_logo_PNG1.png?raw=true",
     role: "Huawei ICT Academy Ambassador",
     company: "Huawei",
     date: "May 2022 - Dec 2023 ",
@@ -126,7 +126,7 @@ export const experiences = [
   },
   {
     id: 3,
-    img: "https://media.licdn.com/dms/image/v2/C4D0BAQFwcvfBSWGiYg/company-logo_200_200/company-logo_200_200/0/1630529615842?e=1743638400&v=beta&t=VbMTSS4_-fItekTaM4HYl3_CUf5Bo_Yr-9McxSnMklE",
+    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/instant_logo.jpg?raw=true",
     role: "AI Developer",
     company: "Instant Software Solutions",
     date: "Jul 2023 - Aug 2023",
