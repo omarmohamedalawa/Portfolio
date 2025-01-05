@@ -245,30 +245,35 @@ export const skills = [
     ],
   },
   {
-    title: "Android",
+    title: "Development & Deployment",
     skills: [
       {
-        name: "Java",
+        name: "Google Colab",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
       },
       {
-        name: "Kotlin",
+        name: "Jupyter",
         image:
           "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
       },
       {
-        name: "Jetpack Compose",
+        name: "VS Code",
         image:
           "https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png",
       },
       {
-        name: "XML",
+        name: "GitHub",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
       },
       {
-        name: "Android Studio",
+        name: "Git",
+        image:
+          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+      },
+      {
+        name: "Figma",
         image:
           "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
       },
