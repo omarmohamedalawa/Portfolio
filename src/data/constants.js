@@ -148,51 +148,6 @@ export const experiences = [
 
 export const skills = [
   {
-    title: "Data Processing",
-    skills: [
-      {
-        name: "MS SQL Server",
-        image:
-        "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/microsoft-sql-server-logo-svgrepo-com%20(1).png?raw=true"
-      },
-      {
-        name: "MySQL",
-        image:
-        "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/MySQL_logo_PNG1.png?raw=true"
-      },
-      {
-        name: "Python",
-        image:
-        "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Python_logo_PNG1.png?raw=true"
-      },
-      {
-        name: "R",
-        image:
-        "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/R.png?raw=true"
-      },
-      {
-        name: "MATLAB",
-        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/MATLAB_Logo.png?raw=true",
-      },
-      {
-        name: "Excel",
-        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Microsoft_Excel_logo_PNG1.png?raw=true",
-      },
-      {
-        name: "Google Sheets",
-        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Google%20Sheets_logo.png?raw=true",
-      },
-      {
-        name: "Pandas",
-        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Pandas.png?raw=true",
-      },
-      {
-        name: "NumPy",
-        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/NumPy.png?raw=true",
-      },
-    ],
-  },
-  {
     title: "Visualization & BI",
     skills: [
       {
@@ -245,6 +200,51 @@ export const skills = [
     ],
   },
   {
+    title: "Data Processing",
+    skills: [
+      {
+        name: "MS SQL Server",
+        image:
+        "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/microsoft-sql-server-logo-svgrepo-com%20(1).png?raw=true"
+      },
+      {
+        name: "MySQL",
+        image:
+        "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/MySQL_logo_PNG1.png?raw=true"
+      },
+      {
+        name: "Python",
+        image:
+        "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Python_logo_PNG1.png?raw=true"
+      },
+      {
+        name: "R",
+        image:
+        "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/R.png?raw=true"
+      },
+      {
+        name: "MATLAB",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/MATLAB_Logo.png?raw=true",
+      },
+      {
+        name: "Excel",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Microsoft_Excel_logo_PNG1.png?raw=true",
+      },
+      {
+        name: "Google Sheets",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Google%20Sheets_logo.png?raw=true",
+      },
+      {
+        name: "Pandas",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Pandas.png?raw=true",
+      },
+      {
+        name: "NumPy",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/NumPy.png?raw=true",
+      },
+    ],
+  },
+  {
     title: "Development & Deployment",
     skills: [
       {
@@ -276,81 +276,6 @@ export const skills = [
         name: "Figma",
         image:
           "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Figma.png?raw=true",
-      },
-    ],
-  },
-  {
-    title: "Machine Learning",
-    skills: [
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
-        name: "Tenserflow",
-        image:
-          "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png",
-      },
-      {
-        name: "Keras",
-        image:
-          "https://miro.medium.com/v2/resize:fit:600/1*DKu_54iqz6C-p6ndo7rO3g.png",
-      },
-      {
-        name: "Jupyter",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
-      },
-      {
-        name: "Google Colab",
-        image:
-          "https://assets.stickpng.com/images/63c2e4c9c4baad4ce22bf9ef.png",
-      },
-      {
-        name: "Sk Learn Kit",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
-      },
-    ],
-  },
-  {
-    title: "Others",
-    skills: [
-      {
-        name: "Git",
-        image:
-          "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
-      },
-      {
-        name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
-      {
-        name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-      },
-      {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-      {
-        name: "Postman",
-        image:
-          "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
-      },
-      {
-        name: "Adobe XD",
-        image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
-      },
-      {
-        name: "Figma",
-        image:
-          "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
       },
     ],
   },
