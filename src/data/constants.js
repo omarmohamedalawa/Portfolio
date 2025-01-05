@@ -250,7 +250,7 @@ export const skills = [
       {
         name: "Google Colab",
         image:
-          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Google%20Colab.png?raw=true",
+          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Google_Colab.png?raw=true",
       },
       {
         name: "Jupyter",
@@ -260,22 +260,22 @@ export const skills = [
       {
         name: "VS Code",
         image:
-          "https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png",
+          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/VS_Code.png?raw=true",
       },
       {
         name: "GitHub",
         image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
+          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/GitHub.png?raw=true",
       },
       {
         name: "Git",
         image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Git.png?raw=true",
       },
       {
         name: "Figma",
         image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Figma.png?raw=true",
       },
     ],
   },
