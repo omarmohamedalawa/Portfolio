@@ -180,7 +180,15 @@ export const skills = [
       },
       {
         name: "Google Sheets",
-        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Microsoft_Excel_logo_PNG1.png?raw=true",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Google%20Sheets_logo.png?raw=true",
+      },
+      {
+        name: "Pandas",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Pandas.png?raw=true",
+      },
+      {
+        name: "NumPy",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/NumPy.png?raw=true",
       },
     ],
   },
@@ -196,85 +204,43 @@ export const skills = [
         image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/tableau-software-seeklogo.png?raw=true",
       },
       {
-        name: "Graph Ql",
-        image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
+        name: "Looker",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/looker-icon-svgrepo-com.png?raw=true",
       },
       {
-        name: "Python",
+        name: "Matplotlib",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Matplotlib.png?raw=true",
       },
       {
-        name: "Flask",
+        name: "Seaborn",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png",
-      },
-      {
-        name: "Django",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlFFyY16N5NRhzoG24RqB7x8Ok2t8Bdgs-tuMsOBXS2Q&s",
-      },
-      {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
-      {
-        name: "Postgresql",
-        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      },
-      {
-        name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
-      {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/seaborn-seeklogo.png?raw=true",
       },
     ],
   },
   {
-    title: "DevOps",
+    title: "Machine Learning & AI",
     skills: [
       {
-        name: "AWS",
+        name: "Scikit-learn",
         image:
-          "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
+          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/scikit-learn.png?raw=true",
       },
       {
-        name: "Google Cloud",
+        name: "TensorFlow",
         image:
-          "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
+          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/TensorFlow.png?raw=true",
       },
       {
-        name: "Docker",
+        name: "PyTorch",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/PyTorch.png?raw=true",
       },
       {
-        name: "Jenkins",
+        name: "Keras",
         image:
-          "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
-      },
-      {
-        name: "Nginx",
-        image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
-      },
-      {
-        name: "Grafana",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
-      },
-      {
-        name: "Kubernetes",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
-      },
-      {
-        name: "Prometheus",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
+          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Keras.png?raw=true",
       },
     ],
   },
