@@ -250,12 +250,12 @@ export const skills = [
       {
         name: "Google Colab",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Google%20Colab.png?raw=true",
       },
       {
         name: "Jupyter",
         image:
-          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
+          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Jupyter.png?raw=true",
       },
       {
         name: "VS Code",
