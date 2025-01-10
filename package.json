@@ -1,7 +1,7 @@
 {
   "name": "3d-portfolio-website",
   "version": "0.1.1",
-  "homepage": "https://omarmohamedalawa.github.io/Omar_Alawa_Portfolio/",
+  "homepage": "https://omarmohamedalawa.github.io/Portfolio/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
