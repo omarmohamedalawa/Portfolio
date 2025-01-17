@@ -322,6 +322,55 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Film Makeer Gide Project",
+    date: "",
+    description:
+      "This project involves a comprehensive analysis of the top 250 highest-rated films on IMDb to identify essential factors that contribute to a film's success. By examining a wide range of data from these films.",
+    image:
+      "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/film_makeer_gide_Project.png?raw=true",
+    tags: [
+      "Excel",
+      "PowerPoint",
+    ],
+    category: "Visualization & BI",
+    github: "https://github.com/omarmohamedalawa/film_makeer_gide_Project/tree/main",
+    webapp: "https://github.com/omarmohamedalawa/film_makeer_gide_Project/raw/refs/heads/main/A%20Filmmaker%20guide.pptx",
+  },
+  {
+    id: 4,
+    title: "SkyLink PowerBI Project",
+    date: "",
+    description:
+      "",
+    image:
+      "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/SkyLink-PowerBI-Project.png?raw=true",
+    tags: [
+      "Power BI",
+      "Excel",
+      "PowerPoint",
+    ],
+    category: "Visualization & BI",
+    github: "https://github.com/omarmohamedalawa/SkyLink-PowerBI-Project",
+    webapp: "https://github.com/omarmohamedalawa/SkyLink-PowerBI-Project/raw/refs/heads/main/SkyLink%20Power%20BI%20Project.pbix",
+  },
+  {
+    id: 5,
+    title: "Attrition Analysis HR Analytics Project",
+    date: "",
+    description:
+      "",
+    image:
+      "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/Attrition_Analysis_HR_Analytics_Project.png?raw=true",
+    tags: [
+      "Tableau",
+      "Excel",
+    ],
+    category: "Visualization & BI",
+    github: "https://github.com/omarmohamedalawa/Attrition_Analysis_HR_Analytics_Project",
+    webapp: "https://github.com/omarmohamedalawa/Attrition_Analysis_HR_Analytics_Project/raw/refs/heads/main/Attrition%20Analysis.twbx",
+  },
+  {
+    id: 6,
     title: "Visualization Fuel Econ Project",
     date: "",
     description:
@@ -341,7 +390,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 4,
+    id: 7,
     title: "Wrangling Car Project",
     date: "",
     description:
@@ -358,55 +407,6 @@ export const projects = [
     category: "Data Wrangling",
     github: "https://github.com/omarmohamedalawa/wrangle_car_project",
     webapp: "",
-  },
-  {
-    id: 5,
-    title: "SkyLink PowerBI Project",
-    date: "",
-    description:
-      "",
-    image:
-      "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/SkyLink-PowerBI-Project.png?raw=true",
-    tags: [
-      "Power BI",
-      "Excel",
-      "PowerPoint",
-    ],
-    category: "Visualization & BI",
-    github: "https://github.com/omarmohamedalawa/SkyLink-PowerBI-Project",
-    webapp: "https://github.com/omarmohamedalawa/SkyLink-PowerBI-Project/raw/refs/heads/main/SkyLink%20Power%20BI%20Project.pbix",
-  },
-  {
-    id: 6,
-    title: "Film Makeer Gide Project",
-    date: "",
-    description:
-      "This project involves a comprehensive analysis of the top 250 highest-rated films on IMDb to identify essential factors that contribute to a film's success. By examining a wide range of data from these films.",
-    image:
-      "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/film_makeer_gide_Project.png?raw=true",
-    tags: [
-      "Excel",
-      "PowerPoint",
-    ],
-    category: "Visualization & BI",
-    github: "https://github.com/omarmohamedalawa/film_makeer_gide_Project/tree/main",
-    webapp: "https://github.com/omarmohamedalawa/film_makeer_gide_Project/raw/refs/heads/main/A%20Filmmaker%20guide.pptx",
-  },
-  {
-    id: 7,
-    title: "Attrition Analysis HR Analytics Project",
-    date: "",
-    description:
-      "",
-    image:
-      "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/Attrition_Analysis_HR_Analytics_Project.png?raw=true",
-    tags: [
-      "Tableau",
-      "Excel",
-    ],
-    category: "Visualization & BI",
-    github: "https://github.com/omarmohamedalawa/Attrition_Analysis_HR_Analytics_Project",
-    webapp: "https://github.com/omarmohamedalawa/Attrition_Analysis_HR_Analytics_Project/raw/refs/heads/main/Attrition%20Analysis.twbx",
   },
 ];
 
