@@ -11,7 +11,7 @@ export const Bio = {
   description:
   "Junior Data Analytics Professional with one year of experience specializing in data analysis and visualization. Demonstrating proficiency in transforming raw data into meaningful insights to support evidence-based decision-making processes. Skilled in a growing array of analytics software, including Python, SQL, Power BI, Excel, and Tableau. Committed to delivering valuable results and contributing to data-driven initiatives within organizations.",
   github: "https://www.github.com/omarmohamedalawa/",
-  resume: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/cv/omar_mohamed_alawa_resume.pdf",
+  resume: "https://drive.google.com/file/d/1uup4YKSOEmmqJEpzJVYI9giDauwDoD-y/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/omarmohamedalawa/",
   Whatsapp: "https://wa.me/+2001126935422",
   insta: "https://www.instagram.com/omarmohamedalawa/",
