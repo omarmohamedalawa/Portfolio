@@ -287,7 +287,7 @@ export const projects = [
   {
     id: 1,
     title: "Arabic Sign Language Translator ASLT",
-    date: "",
+    //date: "",
     description:
       "A web application that helps people with special needs (speechless) to communicate with people through artificial intelligence models that convert sign language into readable language. This web application contains a special part for face-to- face conversations and another part for online group meetings.",
     image:
@@ -306,7 +306,7 @@ export const projects = [
   {
     id: 2,
     title: "NTI Capstone Project Supermarket Sales",
-    date: "",
+    //date: "",
     description:
       "This project aims to analyze a supermarket sales dataset, clean the data, and extract insights to better understand customer behavior, product preferences, and sales trends. The analysis covers sales distribution across branches, rush hours, customer types, and product categories.",
     image:
@@ -325,7 +325,7 @@ export const projects = [
   {
     id: 3,
     title: "Film Makeer Gide Project",
-    date: "",
+    //date: "",
     description:
       "This project involves a comprehensive analysis of the top 250 highest-rated films on IMDb to identify essential factors that contribute to a film's success. By examining a wide range of data from these films.",
     image:
@@ -341,7 +341,7 @@ export const projects = [
   {
     id: 4,
     title: "SkyLink PowerBI Project",
-    date: "",
+    //date: "",
     description:
       "",
     image:
@@ -358,7 +358,7 @@ export const projects = [
   {
     id: 5,
     title: "Attrition Analysis HR Analytics Project",
-    date: "",
+    //date: "",
     description:
       "",
     image:
@@ -374,9 +374,9 @@ export const projects = [
   {
     id: 6,
     title: "Visualization Fuel Econ Project",
-    date: "",
-    description:
-      "",
+    //date: "",
+    //description:
+    //"",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/visualization_fuel_econ_project.png?raw=true",
     tags: 
@@ -389,14 +389,14 @@ export const projects = [
     ],
     category: "Data Wrangling",
     github: "https://github.com/omarmohamedalawa/visualization_fuel_econ_project",
-    webapp: "",
+    //webapp: "",
   },
   {
     id: 7,
     title: "Wrangling Car Project",
-    date: "",
-    description:
-      "",
+    //date: "",
+    //description:
+    //  "",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/wrangle_car_project.png?raw=true",
     tags: [
@@ -408,7 +408,7 @@ export const projects = [
     ],
     category: "Data Wrangling",
     github: "https://github.com/omarmohamedalawa/wrangle_car_project",
-    webapp: "",
+    //webapp: "",
   },
 ];
 
