@@ -17,6 +17,7 @@ export const Bio = {
   insta: "https://www.instagram.com/omarmohamedalawa/",
   facebook: "https://www.facebook.com/omarmohamedalawa/",
   email: "https://omarmohamed2591999@gmail.com/",
+  email: "mailto:omarmohamed2591999@gmail.com",
 };
 
 export const education = [
