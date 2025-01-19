@@ -3,9 +3,6 @@ import { Link as LinkR } from "react-router-dom";
 import styled, { useTheme } from "styled-components";
 import { Bio } from "../data/constants";
 import { MenuRounded } from "@mui/icons-material";
-import React from "react";
-import styled from "styled-components";
-import { Bio } from "../../data/constants";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp"
 import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
