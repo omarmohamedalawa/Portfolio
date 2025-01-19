@@ -191,6 +191,17 @@ const Navbar = () => {
             Github Profile
           </GithubButton>
         </ButtonContainer>
+        <SocialMediaIcons>
+          <SocialMediaIcon href={Bio.email} target="display">
+            <EmailIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.linkedin} target="display">
+            <LinkedInIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.Whatsapp} target="display">
+            <WhatsAppIcon />
+          </SocialMediaIcon>
+        </SocialMediaIcons>
       </NavbarContainer>
     </Nav>
   );
