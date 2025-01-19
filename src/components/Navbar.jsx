@@ -3,9 +3,6 @@ import { Link as LinkR } from "react-router-dom";
 import styled, { useTheme } from "styled-components";
 import { Bio } from "../data/constants";
 import { MenuRounded } from "@mui/icons-material";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp"
-import EmailIcon from "@mui/icons-material/Email";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Nav = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -133,21 +130,6 @@ const MobileMenu = styled.ul`
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
   z-index: ${({ isOpen }) => (isOpen ? "1000" : "-1000")};
-`; 
-
-const SocialMediaIcons = styled.div`
-  display: flex;
-  margin-top: 1rem;
-`;
-const SocialMediaIcon = styled.a`
-  display: inline-block;
-  margin: 0 1rem;
-  font-size: 1.5rem;
-  color: ${({ theme }) => theme.text_primary};
-  transition: color 0.2s ease-in-out;
-  &:hover {
-    color: ${({ theme }) => theme.primary};
-  }
 `;
 
 const Navbar = () => {
@@ -209,17 +191,6 @@ const Navbar = () => {
             Github Profile
           </GithubButton>
         </ButtonContainer>
-        <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.email} target="display">
-            <EmailIcon />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display">
-            <LinkedInIcon />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.Whatsapp} target="display">
-            <WhatsAppIcon />
-          </SocialMediaIcon>
-        </SocialMediaIcons>
       </NavbarContainer>
     </Nav>
   );
