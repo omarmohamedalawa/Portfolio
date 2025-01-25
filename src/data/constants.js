@@ -26,7 +26,7 @@ export const education = [
     school: "El-Shorouk Academy",
     date: "Oct 2018 - May 2023",
     grade: " Good",
-    desc: "I am a graduate in Computer and Control Engineering from [university name]. I studied courses in programming, electronics, control systems, microprocessors, computer networks, and operating systems. During my studies, I gained experience in designing and programming embedded control systems, software development, and industrial process automation.",
+    desc: "I am a graduate in Computer and Control Engineering from El-Shorouk Academy. I studied courses in programming, electronics, control systems, microprocessors, computer networks, and operating systems. During my studies, I gained experience in designing and programming embedded control systems, software development, and industrial process automation.",
     degree: "Bachelor of Computer and Control Engineering",
   },
   {
