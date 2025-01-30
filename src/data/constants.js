@@ -57,7 +57,7 @@ export const education = [
     degree: "HCIP-AI (Huawei Certified ICT Professional Artificial Intelligence)",
   },
   {
-    id: 3,
+    id: 4,
     img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/huawei_logo_PNG1.png?raw=true",
     school: "Huawei ICT Acadmy",
     date: "May 2022",
@@ -66,7 +66,7 @@ export const education = [
     degree: "Introduction Leadership Skills",
   },
   {
-    id: 4,
+    id: 5,
     img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/huawei_logo_PNG1.png?raw=true",
     school: "Huawei ICT Acadmy",
     date: "Dec 2021",
