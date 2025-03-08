@@ -141,7 +141,6 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          print(result)
           alert("Message Sent");
           form.current.resut();
         },
