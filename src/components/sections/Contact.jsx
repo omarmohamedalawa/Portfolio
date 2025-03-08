@@ -130,15 +130,18 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
     emailjs
       .sendForm(
         "service_tox7kqs",
         "template_nv7k7mj",
         form.current,
-        "SybVGsYS52j2TfLbi"
+        "omarmohamed2591999@gmail.com"
+        
       )
       .then(
         (result) => {
+          print(result)
           alert("Message Sent");
           form.current.resut();
         },
