@@ -130,22 +130,21 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+  
     emailjs
       .sendForm(
         "service_tox7kqs",
         "template_nv7k7mj",
         form.current,
-        "omarmohamed2591999@gmail.com"
-        
+        "FtAY_aBbTYvFqPQ8i"
       )
       .then(
         (result) => {
           alert("Message Sent");
-          form.current.resut();
+          form.current.reset(); // تصحيح الخطأ هنا
         },
         (error) => {
-          alert(error);
+          alert("Failed to send message: " + error.text);
         }
       );
   };
