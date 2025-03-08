@@ -130,25 +130,25 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+  
     emailjs
       .sendForm(
         "service_o4yq7ih",
-        "template_cjbaakm",
+        "template_d8c22kv",
         form.current,
-        "FtAY_aBbTYvFqPQ8i"
-        
+        "wQ1oU-Ck0KgOmYZHZ"
       )
       .then(
         (result) => {
           alert("Message Sent");
-          form.current.reset(); 
+          form.current.reset(); // تصحيح الخطأ هنا
         },
         (error) => {
           alert("Failed to send message: " + error.text);
         }
       );
   };
+  
 
   return (
     <Container>
