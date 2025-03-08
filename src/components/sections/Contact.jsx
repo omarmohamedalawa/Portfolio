@@ -131,23 +131,31 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
   
+    if (!form.current) {
+      alert("Form reference is null. Please check your form.");
+      return;
+    }
+  
     emailjs
       .sendForm(
-        "service_o4yq7ih",
-        "template_d8c22kv",
+        "service_o4yq7ih", // تأكد من أن Service ID صحيح
+        "template_d8c22kv", // تأكد من أن Template ID صحيح
         form.current,
-        "wQ1oU-Ck0KgOmYZHZ"
+        "wQ1oU-Ck0KgOmYZHZ" // تأكد من أن Public Key صحيح
       )
       .then(
         (result) => {
           alert("Message Sent");
-          form.current.reset(); // تصحيح الخطأ هنا
+          form.current.reset();
         },
         (error) => {
-          alert("Failed to send message: " + error.text);
+          console.error("EmailJS Error:", error);
+          console.dir(error); // طباعة تفاصيل الخطأ
+          alert("Failed to send message: " + (error.text || JSON.stringify(error) || "Unknown error"));
         }
       );
   };
+  
   
 
   return (
