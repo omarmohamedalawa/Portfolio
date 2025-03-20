@@ -13,6 +13,7 @@ import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
 import ProjectDetails from "./components/Dialog/ProjectDetails";
 import { useState } from "react";
+import SidebarSocialIcons from "./components/sidebar"; 
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -43,8 +44,8 @@ function App() {
     <ThemeProvider theme={darkTheme}>
       <BrowserRouter>
         <Navbar />
+        <SidebarSocialIcons />
         <Body>
-          <StarCanvas />
           <AnimatePresence>
             <div>
               <Hero />

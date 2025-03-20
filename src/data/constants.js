@@ -78,7 +78,7 @@ export const education = [
 
 export const experiences = [
   {
-    id: 0,
+    id: 1,
     img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Ain_Shams_University_Hospitals_Logo.jpg?raw=true",
     role: "Data Analyst",
     company: "Ain Shams University Hospitals",
@@ -92,7 +92,7 @@ export const experiences = [
     ]
   },
   {
-    id: 1,
+    id: 2,
     img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Ain_Shams_University_Hospitals_Logo.jpg?raw=true",
     role: "HIS Implementation Specialist",
     company: "Ain Shams University Hospitals",
@@ -108,7 +108,7 @@ export const experiences = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/huawei_logo_PNG1.png?raw=true",
     role: "Huawei ICT Academy Ambassador",
     company: "Huawei",
@@ -125,7 +125,7 @@ export const experiences = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/instant_logo.jpg?raw=true",
     role: "AI Developer",
     company: "Instant Software Solutions",
@@ -145,6 +145,7 @@ export const experiences = [
     ],
   },
 ];
+
 
 export const skills = [
   {
