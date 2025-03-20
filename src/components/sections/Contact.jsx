@@ -139,7 +139,7 @@ const Contact = () => {
     emailjs
       .sendForm(
         "service_o4yq7ih", // تأكد من أن Service ID صحيح
-        "template_d8c22kv", // تأكد من أن Template ID صحيح
+        "template_cjbaakm", // تأكد من أن Template ID صحيح
         form.current,
         "wQ1oU-Ck0KgOmYZHZ" // تأكد من أن Public Key صحيح
       )
