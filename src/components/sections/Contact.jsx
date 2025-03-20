@@ -181,18 +181,26 @@
 
 
 // -------------------------------
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
-  const form = useRef(null);
+  const formRef = useRef(null);
   const [message, setMessage] = useState("");
+
+  useEffect(() => {
+    if (!formRef.current) {
+      console.error("❌ Form reference is still null.");
+    } else {
+      console.log("✅ Form reference is initialized successfully.");
+    }
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (!form.current) {
-      setMessage("Form reference is null. Please check your form.");
+    if (!formRef.current) {
+      setMessage("❌ Form reference is null. Please try again.");
       return;
     }
 
@@ -201,16 +209,16 @@ const ContactForm = () => {
       .sendForm(
         "service_o4yq7ih", // استبدل بـ Service ID الخاص بك
         "template_cjbaakm", // استبدل بـ Template ID الخاص بك
-        form.current,
+        formRef.current,
         "wQ1oU-Ck0KgOmYZHZ" // استبدل بـ Public Key الخاص بك
       )
       .then(
         (result) => {
           setMessage("✅ Message sent successfully!");
-          form.current.reset(); // إعادة تعيين النموذج
+          formRef.current.reset(); // إعادة تعيين النموذج بعد الإرسال
         },
         (error) => {
-          console.error("EmailJS Error:", error);
+          console.error("❌ EmailJS Error:", error);
           setMessage("❌ Failed to send message. Please try again.");
         }
       );
@@ -219,7 +227,7 @@ const ContactForm = () => {
   return (
     <div style={{ maxWidth: "500px", margin: "0 auto", padding: "20px", textAlign: "center" }}>
       <h2>Contact Me</h2>
-      <form ref={form} onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+      <form ref={formRef} onSubmit={handleSubmit} style={formStyle}>
         <input type="text" name="from_name" placeholder="Your Name" required style={inputStyle} />
         <input type="email" name="from_email" placeholder="Your Email" required style={inputStyle} />
         <input type="text" name="subject" placeholder="Subject" required style={inputStyle} />
@@ -232,6 +240,16 @@ const ContactForm = () => {
 };
 
 // ** أنماط الحقول والأزرار **
+const formStyle = {
+  display: "flex",
+  flexDirection: "column",
+  gap: "10px",
+  backgroundColor: "#f9f9f9",
+  padding: "20px",
+  borderRadius: "10px",
+  boxShadow: "0px 0px 10px rgba(0,0,0,0.1)"
+};
+
 const inputStyle = {
   width: "100%",
   padding: "10px",
@@ -251,6 +269,7 @@ const buttonStyle = {
 };
 
 export default ContactForm;
+
 
 
 
