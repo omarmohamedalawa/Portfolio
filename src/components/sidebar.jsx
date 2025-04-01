@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { Bio } from "../data/constants";
 import { FaBars, FaGithub, FaLinkedin, FaFileAlt, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
-// ✅ الحاوية الأساسية
 const MobileMenuContainer = styled.div`
   position: fixed;
   bottom: 20px;
@@ -28,7 +27,6 @@ const MobileMenuContainer = styled.div`
   }
 `;
 
-// ✅ زر القائمة الرئيسي (يختفي في الكمبيوتر)
 const MainButton = styled(motion.button)`
   width: 55px;
   height: 55px;
@@ -47,11 +45,10 @@ const MainButton = styled(motion.button)`
   right: 0;
 
   @media (min-width: 768px) {
-    display: none; /* يخفي الزر في الكمبيوتر */
+    display: none;
   }
 `;
 
-// ✅ أيقونات السوشيال ميديا
 const SocialIcon = styled(motion.a)`
   width: 45px;
   height: 45px;
@@ -65,6 +62,8 @@ const SocialIcon = styled(motion.a)`
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   position: absolute;
   transition: all 0.3s ease-in-out;
+  opacity: 0;
+  pointer-events: none;
 
   &:hover {
     background: #854CE6;
@@ -74,6 +73,8 @@ const SocialIcon = styled(motion.a)`
   @media (min-width: 768px) {
     position: relative;
     margin: 10px 0;
+    opacity: 1;
+    pointer-events: auto;
   }
 `;
 
@@ -81,7 +82,6 @@ const SidebarSocialIcons = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 768);
 
-  // ✅ تحديث وضع الكمبيوتر عند تغيير حجم الشاشة
   useEffect(() => {
     const handleResize = () => {
       setIsDesktop(window.innerWidth >= 768);
@@ -91,7 +91,6 @@ const SidebarSocialIcons = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // ✅ توزيع الأيقونات حول الزر الرئيسي في الموبايل
   const socialIcons = [
     { icon: <FaGithub />, link: Bio.github },
     { icon: <FaLinkedin />, link: Bio.linkedin },
@@ -102,27 +101,30 @@ const SidebarSocialIcons = () => {
 
   return (
     <MobileMenuContainer>
-      {/* ✅ زر القائمة الرئيسي (يظهر فقط في الموبايل) */}
       {!isDesktop && (
         <MainButton onClick={() => setIsOpen(!isOpen)} whileTap={{ scale: 0.9 }}>
           <FaBars />
         </MainButton>
       )}
 
-      {/* ✅ توزيع الأيقونات */}
       {socialIcons.map((item, index) => {
         if (isDesktop) {
           return (
-            <SocialIcon key={index} href={item.link} target="_blank">
+            <SocialIcon
+              key={index}
+              href={item.link}
+              target={item.link === Bio.resume ? "_self" : "_blank"}
+              download={item.link === Bio.resume ? true : false}
+            >
               {item.icon}
             </SocialIcon>
           );
         }
 
         const totalIcons = socialIcons.length;
-        const angle = (index * 250) / (totalIcons - 1); // توزيع متساوي
+        const angle = (index * 250) / (totalIcons - 1);
         const baseRadius = 60;
-        const extraGap = index === 0 ? 10 : 10;
+        const extraGap = index === 1 ? 10 : 10;
 
         const x = baseRadius * Math.cos((angle * Math.PI) / 180);
         const y = -baseRadius * Math.sin((angle * Math.PI) / 180) - extraGap;
@@ -130,13 +132,15 @@ const SidebarSocialIcons = () => {
         return (
           <SocialIcon
             key={index}
-            href={item.link}
-            target="_blank"
-            initial={{ x: 0, y: 0, opacity: 0 }}
+            href={isOpen ? item.link : "#"}
+            target={item.link === Bio.resume ? "_self" : "_blank"}
+            download={item.link === Bio.resume ? true : false}
+            initial={{ x: 0, y: 0, opacity: 0, pointerEvents: "none" }}
             animate={{
               x: isOpen ? x : 0,
               y: isOpen ? y : 0,
               opacity: isOpen ? 1 : 0,
+              pointerEvents: isOpen ? "auto" : "none",
             }}
             transition={{ duration: 0.3, delay: index * 0.1 }}
           >
