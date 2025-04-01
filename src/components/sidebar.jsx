@@ -9,8 +9,8 @@ const MobileMenuContainer = styled.div`
   position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 150px;
-  height: 150px;
+  width: 55px;
+  height: 55px;
   display: flex;
   justify-content: center;
   align-items: center;
