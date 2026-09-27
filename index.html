@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar Alawa | Business Intelligence Lead</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        :root {
+            --olive: #6B705C;
+            --olive-light: #8A8E76;
+            --olive-dark: #4A4E3C;
+            --cream: #F5F1E8;
+            --cream-light: #FAF9F6;
+            --slate: #708090;
+            --slate-light: #A8B0B8;
+            --black: #000000;
+            --white: #FFFFFF;
+            --text-cream: #1A1A1A;
+            --grey: #C0C0C0;
+            --grey-dark: #505050;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--black); color: var(--white); line-height: 1.7; overflow-x: hidden; }
+        header { position: fixed; top: 0; left: 0; width: 100%; padding: 1.2rem 3rem; display: flex; justify-content: space-between; align-items: center; z-index: 1000; background: var(--black); border-bottom: 1px solid rgba(255,255,255,0.05); }
+        .logo { font-size: 1.1rem; font-weight: 600; color: var(--white); text-decoration: none; letter-spacing: 1px; }
+        .logo span { color: var(--olive); }
+        header nav { display: flex; gap: 2.5rem; align-items: center; }
+        header nav a { color: var(--white); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.3s; }
+        header nav a:hover { color: var(--olive); }
+        .btn-check-resume { padding: 0.5rem 1.5rem; background: var(--olive); color: var(--white); border: none; border-radius: 50px; font-size: 0.85rem; font-weight: 600; cursor: pointer; text-decoration: none; transition: all 0.3s; }
+        .btn-check-resume:hover { background: var(--olive-light); }
+        .hero { min-height: 100vh; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; padding: 8rem 3rem 4rem; max-width: 1300px; margin: 0 auto; }
+        .hero-text { display: flex; flex-direction: column; gap: 1.5rem; }
+        .hello-tag { display: inline-block; padding: 0.4rem 1.2rem; background: var(--olive); color: var(--white); border-radius: 50px; font-size: 0.85rem; font-weight: 500; width: fit-content; }
+        .hero-text h1 { font-family: 'Playfair Display', serif; font-size: 3.8rem; font-weight: 700; line-height: 1.1; }
+        .hero-text h3 { font-size: 1.3rem; font-weight: 400; color: var(--slate-light); }
+        .hero-text .subtitle { color: var(--grey); font-size: 1.05rem; max-width: 450px; line-height: 1.8; }
+        .hero-buttons { display: flex; gap: 1rem; margin-top: 0.5rem; }
+        .btn-olive { padding: 0.8rem 2rem; background: var(--olive); color: var(--white); border: none; border-radius: 50px; font-weight: 600; font-size: 0.95rem; cursor: pointer; text-decoration: none; transition: all 0.3s; }
+        .btn-olive:hover { background: var(--olive-light); transform: translateY(-2px); }
+        .btn-outline-white { padding: 0.8rem 2rem; background: transparent; color: var(--white); border: 2px solid var(--white); border-radius: 50px; font-weight: 600; font-size: 0.95rem; cursor: pointer; text-decoration: none; transition: all 0.3s; }
+        .btn-outline-white:hover { background: rgba(255,255,255,0.1); }
+        .hero-image { display: flex; justify-content: center; align-items: center; position: relative; }
+        .hero-image img { width: 380px; height: 480px; object-fit: cover; border-radius: 20px 0 20px 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.5); }
+        section { padding: 5rem 3rem; width: 100%; }
+        .section-inner { max-width: 1300px; margin: 0 auto; }
+        .section-title { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 700; margin-bottom: 2rem; text-align: center; }
+        .section-subtitle { text-align: center; color: var(--grey); font-size: 1.05rem; margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto; }
+        .divider { width: 60px; height: 2px; background: var(--olive); margin: 1.5rem auto; }
+        .services-section { background: var(--black); }
+        .services-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 3rem; max-width: 800px; margin: 0 auto; }
+        .service-box { padding: 2rem; border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; transition: all 0.3s; }
+        .service-box:hover { border-color: var(--olive); }
+        .service-box h5 { font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--olive-light); }
+        .service-box p { color: var(--grey); font-size: 0.95rem; }
+        .about-section { background: var(--cream); color: var(--text-cream); }
+        .about-section .section-title { color: var(--text-cream); }
+        .about-section .section-subtitle { color: var(--grey-dark); }
+        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; }
+        .education-card, .experience-card { background: var(--black); color: var(--white); padding: 2rem; border-radius: 12px; }
+        .education-card h4, .experience-card h4 { font-family: 'Playfair Display', serif; font-size: 1.3rem; margin-bottom: 1rem; color: var(--olive-light); }
+        .education-card .date { font-size: 0.85rem; color: var(--olive); font-weight: 600; margin-bottom: 0.3rem; }
+        .education-card .degree { font-size: 1rem; font-weight: 600; }
+        .experience-item { margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .experience-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+        .experience-item .date { font-size: 0.85rem; color: var(--olive); font-weight: 600; }
+        .experience-item .title { font-size: 1.1rem; font-weight: 700; margin: 0.3rem 0; }
+        .experience-item .company { color: var(--olive-light); font-size: 0.9rem; margin-bottom: 0.8rem; }
+        .experience-item ul { list-style: none; padding-left: 0; }
+        .experience-item ul li { padding: 0.2rem 0; padding-left: 1rem; position: relative; color: var(--grey); font-size: 0.85rem; }
+        .experience-item ul li::before { content: '•'; position: absolute; left: 0; color: var(--olive); }
+        .why-section { background: var(--black); text-align: center; padding: 5rem 3rem; }
+        .why-section .section-title { color: var(--white); }
+        .why-section .section-subtitle { color: var(--grey); margin-left: auto; margin-right: auto; }
+        .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3rem; max-width: 700px; margin: 2rem auto 3rem; }
+        .stat-item .number { font-family: 'Playfair Display', serif; font-size: 3rem; font-weight: 700; color: var(--olive); }
+        .stat-item .label { color: var(--grey); font-size: 0.9rem; margin-top: 0.3rem; }
+        .btn-let-talk { padding: 0.8rem 2.5rem; background: var(--olive); color: var(--white); border: none; border-radius: 50px; font-weight: 600; font-size: 1rem; cursor: pointer; text-decoration: none; transition: all 0.3s; }
+        .btn-let-talk:hover { background: var(--olive-light); }
+        .process-section { background: var(--cream); color: var(--text-cream); text-align: center; }
+        .process-section .section-title { color: var(--text-cream); }
+        .process-section .section-subtitle { color: var(--grey-dark); }
+        .process-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3rem; max-width: 900px; margin: 0 auto; }
+        .process-step { padding: 2rem; }
+        .step-number { width: 50px; height: 50px; background: var(--olive); color: var(--white); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; font-weight: 700; margin: 0 auto 1.5rem; }
+        .process-step h4 { font-size: 1.15rem; margin-bottom: 0.5rem; color: var(--text-cream); }
+        .process-step p { color: var(--grey-dark); font-size: 0.9rem; }
+        .portfolio-section { background: var(--black); }
+        .portfolio-filters { display: flex; justify-content: center; gap: 1rem; margin-bottom: 3rem; }
+        .filter-btn { padding: 0.5rem 1.5rem; background: transparent; color: var(--white); border: 1px solid rgba(255,255,255,0.2); border-radius: 50px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.3s; }
+        .filter-btn:hover, .filter-btn.active { background: var(--olive); border-color: var(--olive); }
+        .projects-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; max-width: 900px; margin: 0 auto; }
+        .project-card { padding: 2rem; border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; transition: all 0.3s; }
+        .project-card:hover { border-color: var(--olive); transform: translateY(-5px); }
+        .project-card h4 { font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--olive-light); }
+        .project-card p { color: var(--grey); font-size: 0.85rem; }
+        .contact-section { background: var(--cream); color: var(--text-cream); }
+        .contact-section .section-title { color: var(--text-cream); }
+        .contact-section .section-subtitle { color: var(--grey-dark); }
+        .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+        .contact-info { display: flex; flex-direction: column; gap: 1.5rem; }
+        .contact-item { display: flex; align-items: center; gap: 1rem; }
+        .contact-item .icon { width: 45px; height: 45px; border-radius: 50%; background: var(--black); color: var(--olive); display: flex; align-items: center; justify-content: center; font-size: 1rem; }
+        .contact-item a { color: var(--text-cream); text-decoration: none; font-weight: 600; }
+        .contact-item .label { font-size: 0.8rem; color: var(--grey-dark); display: block; }
+        .contact-form { background: var(--black); color: var(--white); padding: 2.5rem; border-radius: 12px; }
+        .contact-form h3 { font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-bottom: 1.5rem; color: var(--white); }
+        .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+        .form-group { margin-bottom: 1rem; }
+        .form-group label { display: block; font-size: 0.8rem; color: var(--grey); margin-bottom: 0.3rem; font-weight: 500; }
+        .form-group input, .form-group textarea { width: 100%; padding: 0.7rem 1rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; color: var(--white); font-family: 'Inter', sans-serif; font-size: 0.9rem; outline: none; transition: border-color 0.3s; }
+        .form-group input:focus, .form-group textarea:focus { border-color: var(--olive); }
+        .form-group textarea { height: 100px; resize: vertical; }
+        .btn-send { width: 100%; padding: 0.8rem; background: var(--olive); color: var(--white); border: none; border-radius: 50px; font-weight: 600; font-size: 0.95rem; cursor: pointer; transition: all 0.3s; }
+        .btn-send:hover { background: var(--olive-light); }
+        .blog-section { background: var(--black); }
+        .blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; max-width: 1100px; margin: 0 auto; }
+        .blog-card { border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; overflow: hidden; transition: all 0.3s; }
+        .blog-card:hover { border-color: var(--olive); }
+        .blog-image { height: 180px; background: linear-gradient(135deg, var(--olive-dark), var(--black)); display: flex; align-items: center; justify-content: center; font-size: 3rem; }
+        .blog-body { padding: 1.5rem; }
+        .blog-body h4 { font-size: 1rem; margin-bottom: 0.5rem; color: var(--white); }
+        .blog-body p { color: var(--grey); font-size: 0.8rem; line-height: 1.6; }
+        .services-bottom { background: var(--cream); color: var(--text-cream); text-align: center; }
+        .services-bottom .section-title { color: var(--text-cream); }
+        .services-bottom .section-subtitle { color: var(--grey-dark); }
+        .services-bottom-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3rem; max-width: 800px; margin: 0 auto; }
+        .service-bottom-item { padding: 2rem; }
+        .service-bottom-item .step-num { width: 40px; height: 40px; background: var(--olive); color: var(--white); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1rem; font-weight: 700; margin: 0 auto 1rem; }
+        .service-bottom-item h4 { font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--text-cream); }
+        .service-bottom-item p { color: var(--grey-dark); font-size: 0.9rem; }
+        footer { background: var(--black); padding: 3rem; text-align: center; }
+        footer .footer-logo { font-size: 1.3rem; font-weight: 700; color: var(--olive); margin-bottom: 1rem; }
+        footer .footer-nav { display: flex; justify-content: center; gap: 2rem; margin-bottom: 1.5rem; }
+        footer .footer-nav a { color: var(--grey); text-decoration: none; font-size: 0.9rem; transition: color 0.3s; }
+        footer .footer-nav a:hover { color: var(--olive); }
+        .social-icons { display: flex; justify-content: center; gap: 1rem; margin-bottom: 1.5rem; }
+        .social-icons a { width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.05); color: var(--white); display: flex; align-items: center; justify-content: center; text-decoration: none; font-size: 0.9rem; transition: all 0.3s; }
+        .social-icons a:hover { background: var(--olive); }
+        footer p { color: var(--grey); font-size: 0.8rem; }
+        .fade-in { opacity: 0; transform: translateY(30px); transition: all 0.6s ease; }
+        .fade-in.visible { opacity: 1; transform: translateY(0); }
+        @media (max-width: 768px) {
+            header { padding: 1rem 1.5rem; }
+            header nav { display: none; }
+            .hero { grid-template-columns: 1fr; text-align: center; padding: 6rem 1.5rem 2rem; }
+            .hero-text h1 { font-size: 2.2rem; }
+            .hero-text .subtitle { margin: 0 auto; }
+            .hero-buttons { justify-content: center; }
+            .hero-image { order: -1; }
+            .hero-image img { width: 250px; height: 320px; }
+            .services-grid, .projects-grid, .blog-grid, .services-bottom-grid, .about-grid, .contact-grid { grid-template-columns: 1fr; }
+            .stats-grid { grid-template-columns: 1fr; }
+            .process-grid { grid-template-columns: 1fr; }
+            .form-row { grid-template-columns: 1fr; }
+            section { padding: 3rem 1.5rem; }
+            .social-icons { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><span>&lt; Omar / Alawa &gt;</span></a>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Portfolio Page</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a href="#contact" class="btn-check-resume">Check Resume</a>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <span class="hello-tag">Hello!</span>
+            <h1>I'm Omar Alawa,</h1>
+            <h3>Business Intelligence Lead based in Egypt.</h3>
+            <p class="subtitle">Multifaceted data analyst driving data-driven transformation across healthcare and retail. Expert in Data Warehousing, Power BI, SQL Server, and Python.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-olive">Email Me</a>
+                <a href="#contact" class="btn-outline-white">Check Resume</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop&crop=faces" alt="Omar Alawa Photo">
+        </div>
+    </section>
+    <section id="services" class="services-section">
+        <h2 class="section-title">My Services</h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">What I bring to the table</p>
+        <div class="services-grid">
+            <div class="service-box fade-in"><h5>BI & Dashboards</h5><p>Power BI, Tableau, Looker</p></div>
+            <div class="service-box fade-in"><h5>Data Warehousing</h5><p>SQL Server, ETL/ELT, Star Schema</p></div>
+            <div class="service-box fade-in"><h5>S&amp;OP & Forecasting</h5><p>Python, Machine Learning, Scenario Analysis</p></div>
+            <div class="service-box fade-in"><h5>App Design</h5><p>Crafting intuitive mobile experiences with a focus on performance and user-centric design systems.</p></div>
+            <div class="service-box fade-in"><h5>Web Design</h5><p>Building responsive, high-performance websites that bridge the gap between brand vision and user needs.</p></div>
+            <div class="service-box fade-in"><h5>Landing Page</h5><p>Converting visitors into customers through strategic copywriting and high-impact visual storytelling.</p></div>
+        </div>
+    </section>
+    <section id="experience" class="about-section">
+        <h2 class="section-title">Experience</h2>
+        <p class="section-subtitle">My work experience spanning data, BI & supply chain</p>
+        <div class="about-grid">
+            <div class="education-card fade-in">
+                <h4>Education</h4>
+                <div class="date">2018–2023</div>
+                <div class="degree">B.Eng. in Computer & Control Engineering</div>
+                <p style="color: var(--grey); margin-top: 0.5rem; font-size: 0.9rem;">El-Shorouk Academy, Cairo</p>
+                <div class="date" style="margin-top: 1.5rem;">2025</div>
+                <div class="degree">Professional Diploma in Entrepreneurship</div>
+                <p style="color: var(--grey); margin-top: 0.5rem; font-size: 0.9rem;">University of Missouri, USA</p>
+            </div>
+            <div class="experience-card fade-in">
+                <h4>Work Experience</h4>
+                <div class="experience-item">
+                    <div class="date">Jan 2026 – Present</div>
+                    <div class="title">BI & S&OP Planning Lead</div>
+                    <div class="company">@ Raif Textile</div>
+                    <ul>
+                        <li>Own full S&OP cycle: aligning demand forecasts, supply capacity, and financial targets</li>
+                        <li>Developed demand forecasting models, improving forecast accuracy by 50%+</li>
+                        <li>Designed executive Power BI dashboards tracking sales, inventory, and margin</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="date">Jul 2025 – Dec 2025</div>
+                    <div class="title">Senior BI Analyst</div>
+                    <div class="company">@ Raif Textile</div>
+                    <ul>
+                        <li>Established BI function from scratch across 5+ departments</li>
+                        <li>Designed centralized Data Warehouse (Star Schema) via ETL pipelines</li>
+                        <li>RFM analysis generating EGP 1.5M incremental revenue</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="date">Dec 2023 – Jul 2025</div>
+                    <div class="title">Healthcare Data Analyst</div>
+                    <div class="company">@ Ain Shams University Hospitals</div>
+                    <ul>
+                        <li>Contributed to Egypt's first university hospital digital transformation</li>
+                        <li>Automated dashboards reducing reporting time by 95%</li>
+                        <li>Trained 500+ medical staff on HIS systems and Odoo ERP</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="date">Mar 2025 – Jun 2025</div>
+                    <div class="title">Product Owner</div>
+                    <div class="company">@ Ain Shams University</div>
+                    <ul>
+                        <li>Led end-to-end development of a digital platform for medical interns</li>
+                        <li>Built Odoo-based ERP from scratch</li>
+                        <li>Reduced manual workload by 90%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why-section">
+        <h2 class="section-title">Why Hire Me</h2>
+        <div class="divider" style="background: var(--cream); margin-left: auto; margin-right: auto;"></div>
+        <p class="section-subtitle">I bridge business strategy and technical execution, translating complex data into clear, actionable insights for leadership teams.</p>
+        <div class="stats-grid">
+            <div class="stat-item fade-in"><div class="number">EGP 1.5M+</div><div class="label">Revenue Generated</div></div>
+            <div class="stat-item fade-in"><div class="number">95%</div><div class="label">Reporting Time Reduced</div></div>
+            <div class="stat-item fade-in"><div class="number">50+</div><div class="label">Stakeholders Served</div></div>
+        </div>
+        <a href="#contact" class="btn-let-talk">Let's Talk Data</a>
+    </section>
+    <section class="process-section">
+        <h2 class="section-title">My Working Process</h2>
+        <p class="section-subtitle">How I bring projects to life</p>
+        <div class="process-grid">
+            <div class="process-step fade-in"><div class="step-number">1</div><h4>Data Extraction & Wrangling</h4><p>Building robust ETL pipelines to clean and unify data.</p></div>
+            <div class="process-step fade-in"><div class="step-number">2</div><h4>Data Modeling</h4><p>Designing star schemas and business logic for analytics.</p></div>
+            <div class="process-step fade-in"><div class="step-number">3</div><h4>Visualization & Insights</h4><p>Delivering actionable dashboards and reports for decision-makers.</p></div>
+        </div>
+    </section>
+    <section class="portfolio-section">
+        <h2 class="section-title">Let's Have a Look at my Portfolio</h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">Selected work showcasing my expertise</p>
+        <div class="portfolio-filters">
+            <button class="filter-btn active">Visualization & BI</button>
+            <button class="filter-btn">ML & DL</button>
+            <button class="filter-btn">Data Wrangling</button>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card fade-in"><h4>Enterprise Data Warehouse</h4><p>Scalable data warehouse integrating ERP, POS, and HR systems via Star Schema and ETL pipelines.</p></div>
+            <div class="project-card fade-in"><h4>AI Data Extraction Module</h4><p>AI-powered module (n8n + AI Agents) automating structured extraction of customer data.</p></div>
+            <div class="project-card fade-in"><h4>Customer Segmentation (RFM Model)</h4><p>RFM analysis generating EGP 1.5M incremental revenue through targeted reactivation.</p></div>
+            <div class="project-card fade-in"><h4>Healthcare Analytics Platform</h4><p>Unified reporting ecosystem across 12 hospitals consolidating HIS and ERP data.</p></div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Let's Connect & Collaborate</h2>
+        <p class="section-subtitle">Feel free to reach out for any questions or opportunities</p>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="icon"><i class="fas fa-phone"></i></div>
+                    <div><a href="tel:+201126935422">+20 1126935422</a><span class="label">Phone</span></div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><i class="fas fa-envelope"></i></div>
+                    <div><a href="mailto:omarmohamed2591999@gmail.com">omarmohamed2591999@gmail.com</a><span class="label">Email</span></div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div><span>Cairo, Egypt</span><span class="label">Location</span></div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Get In Touch</h3>
+                <div class="form-row">
+                    <div class="form-group"><label>First Name</label><input type="text" placeholder="Your first name"></div>
+                    <div class="form-group"><label>Last Name</label><input type="text" placeholder="Your last name"></div>
+                </div>
+                <div class="form-group"><label>Email Address</label><input type="email" placeholder="your@email.com"></div>
+                <div class="form-group"><label>Subject</label><input type="text" placeholder="What's this about?"></div>
+                <div class="form-group"><label>Message</label><textarea placeholder="Tell me about your project or opportunity..."></textarea></div>
+                <button class="btn-send" onclick="alert('Thank you! I\'ll get back to you soon.')">Send Inquiry</button>
+            </div>
+        </div>
+    </section>
+    <section id="blog" class="blog-section">
+        <h2 class="section-title">Certifications & Workshops</h2>
+        <p class="section-subtitle">Continuous learning across data, AI, and business strategy</p>
+        <div class="blog-grid">
+            <div class="blog-card fade-in">
+                <div class="blog-image"><i class="fas fa-briefcase" style="color: var(--olive);"></i></div>
+                <div class="blog-body"><h4>How to Build a Standout Portfolio</h4><p>Creating a standout portfolio is essential for any designer looking to make their mark in the industry.</p></div>
+            </div>
+            <div class="blog-card fade-in">
+                <div class="blog-image"><i class="fas fa-star" style="color: var(--olive);"></i></div>
+                <div class="blog-body"><h4>Essential Skills for Modern Designers</h4><p>In today's fast-paced digital landscape, the role of a product designer has evolved significantly.</p></div>
+            </div>
+            <div class="blog-card fade-in">
+                <div class="blog-image"><i class="fas fa-palette" style="color: var(--olive);"></i></div>
+                <div class="blog-body"><h4>UI/UX Design Trends to Elevate Your Brand</h4><p>In the ever-evolving world of digital design, staying ahead of the curve is essential for brands.</p></div>
+            </div>
+        </div>
+    </section>
+    <section class="services-bottom">
+        <h2 class="section-title">My Services</h2>
+        <p class="section-subtitle">What I can do for you</p>
+        <div class="services-bottom-grid">
+            <div class="service-bottom-item fade-in"><div class="step-num">1</div><h4>App Design</h4><p>Crafting intuitive mobile experiences with a focus on performance and user-centric design systems.</p></div>
+            <div class="service-bottom-item fade-in"><div class="step-num">2</div><h4>Web Design</h4><p>Building responsive, high-performance websites that bridge the gap between brand vision and user needs.</p></div>
+            <div class="service-bottom-item fade-in"><div class="step-num">3</div><h4>Landing Page</h4><p>Converting visitors into customers through strategic copywriting and high-impact visual storytelling.</p></div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-logo">&lt; Omar / Alawa &gt;</div>
+        <div class="footer-nav">
+            <a href="#home">Home</a>
+            <a href="#services">Portfolio Page</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="social-icons">
+            <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" title="X"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://linkedin.com/in/omaralawa" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <p>&copy; 2024 Omar Mohamed Alawa</p>
+    </footer>
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    </script>
+</body>
