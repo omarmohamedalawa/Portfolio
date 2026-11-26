@@ -240,6 +240,10 @@ export const skills = [
         image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/tableau-software-seeklogo.png?raw=true",
       },
       {
+        name: "Looker",
+        image: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/logos/looker-icon-svgrepo-com.png?raw=true",
+      },
+      {
         name: "Excel",
         image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Microsoft_Excel_logo_PNG1.png?raw=true",
       },
