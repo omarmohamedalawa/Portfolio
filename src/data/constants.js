@@ -261,9 +261,9 @@ export const skills = [
 export const projects = [
   {
     id: 101,
-    title: "ERP Network-Based Data Extraction & Automation Pipeline",
+    title: "ERP Data Extraction & Automation Pipeline",
     description:
-      "Python scripts pull operational data from ERP through network requests and feed a central data layer for Power BI dashboards.",
+      "Python scripts pull ERP data over the network and feed Power BI dashboards.",
     image: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/erp_pipeline.png?raw=true",
     tags: ["Python", "ETL", "Automation", "Power BI"],
     category: "Data & AI Engineering",
@@ -272,7 +272,7 @@ export const projects = [
     id: 102,
     title: "AI-Powered Customer Data Extraction",
     description:
-      "An n8n and AI-agent workflow that extracts and structures customer data, improving data quality and cutting manual entry.",
+      "n8n and AI-agent workflow that extracts and structures customer data, cutting manual entry.",
     image: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/ai_customer_extraction.png?raw=true",
     tags: ["n8n", "AI Agents", "LLMs", "Data Quality"],
     category: "Data & AI Engineering",
@@ -281,7 +281,7 @@ export const projects = [
     id: 103,
     title: "Enterprise Data Warehouse",
     description:
-      "A centralized Star Schema warehouse integrating ERP, POS and HR sources through ETL for consistent reporting.",
+      "Star Schema warehouse integrating ERP, POS and HR data through ETL.",
     image: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/enterprise_data_warehouse.png?raw=true",
     tags: ["SQL Server", "ETL", "Star Schema", "Power BI"],
     category: "Data & AI Engineering",
@@ -291,7 +291,7 @@ export const projects = [
     title: "Arabic Sign Language Translator ASLT",
     //date: "",
     description:
-      "A web application that uses AI models to convert Arabic sign language into readable text for people with speech difficulties.",
+      "Web app using AI models to convert Arabic sign language into readable text.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/Arabic_Sign_Language_Translator_ASLT.png?raw=true",
     tags: [
@@ -310,7 +310,7 @@ export const projects = [
     title: "NTI Capstone Project Supermarket Sales",
     //date: "",
     description:
-      "Cleaned and analyzed supermarket sales data to understand customer behavior, product preferences and sales trends by branch.",
+      "Supermarket sales analysis of customer behavior, products and trends by branch.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/nti.jpg?raw=true",
     tags: [
@@ -329,7 +329,7 @@ export const projects = [
     title: "Film Makeer Gide Project",
     //date: "",
     description:
-      "Analysis of the top 250 highest-rated IMDb films to identify the factors that contribute to a film's success.",
+      "Analysis of IMDb's top 250 films to find what drives a film's success.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/film_makeer_gide_Project.png?raw=true",
     tags: [
@@ -345,7 +345,7 @@ export const projects = [
     title: "SkyLink PowerBI Project",
     //date: "",
     description:
-      "A Power BI dashboard of SkyLink customer churn, broken down by churn category and by state.",
+      "Power BI dashboard of SkyLink customer churn by category and by state.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/SkyLink-PowerBI-Project.png?raw=true",
     tags: [
@@ -362,7 +362,7 @@ export const projects = [
     title: "Attrition Analysis HR Analytics Project",
     //date: "",
     description:
-      "A Tableau dashboard of HR employee attrition by overtime, department, salary, age and years at the company.",
+      "Tableau dashboard of HR employee attrition by overtime, department, salary and age.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/Attrition_Analysis_HR_Analytics_Project.png?raw=true",
     tags: [
@@ -378,7 +378,7 @@ export const projects = [
     title: "Visualization Fuel Econ Project",
     //date: "",
     description:
-      "Cleaned a vehicle fuel economy dataset and visualized fuel use by brand and CO2 emissions by fuel type and year.",
+      "Cleaned fuel economy data and visualized fuel use and CO2 emissions.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/visualization_fuel_econ_project.png?raw=true",
     tags: 
@@ -398,7 +398,7 @@ export const projects = [
     title: "Wrangling Car Project",
     //date: "",
     description:
-      "Python data wrangling of a raw automobile dataset: gathering, assessing quality issues and cleaning it.",
+      "Python wrangling of a raw automobile dataset: gather, assess and clean.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/wrangle_car_project.png?raw=true",
     tags: [
