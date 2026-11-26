@@ -89,7 +89,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Omar Mohamed Alawa</Logo>
+        <Logo>Omar Alawa</Logo>
         <Nav>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Experience">Experience</NavLink>
@@ -114,7 +114,7 @@ const Footer = () => {
             <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2026 Omar Mohamed Alawa. All rights reserved.</Copyright>
+        <Copyright>&copy; 2026 Omar Alawa. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
