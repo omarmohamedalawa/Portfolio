@@ -1,0 +1,52 @@
+name: Apply CV and Looker update and deploy
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tmp-update/cv.pdf.b64'
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Apply update
+        run: |
+          set -e
+          if [ -f tmp-update/cv.pdf.b64 ]; then
+            base64 -d tmp-update/cv.pdf.b64 > src/images/cv/Omar_Alawa_CV_AI_Data_Product_Engineer.pdf
+            git rm -q tmp-update/cv.pdf.b64
+          fi
+          python3 - <<'PY'
+          p='src/data/constants.js'
+          s=open(p,encoding='utf-8').read()
+          if 'name: "Looker"' not in s:
+              marker='        name: "Excel",\n'
+              i=s.index(marker)
+              j=s.rindex('      {\n',0,i)
+              block=('      {\n        name: "Looker",\n'
+                     '        image: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/logos/looker-icon-svgrepo-com.png?raw=true",\n'
+                     '      },\n')
+              s=s[:j]+block+s[j:]
+              open(p,'w',encoding='utf-8').write(s)
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Restore Looker skill and replace CV with original PDF"
+          git push origin main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build
+        run: |
+          (npm ci || npm install --legacy-peer-deps)
+          CI=false npm run build
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
