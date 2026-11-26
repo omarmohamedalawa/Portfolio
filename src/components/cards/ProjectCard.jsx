@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const Card = styled.div`
   width: 330px;
-  height: 520px;
   background-color: ${({ theme }) => theme.card};
   cursor: pointer;
   border-radius: 10px;
@@ -84,12 +83,6 @@ const Description = styled.div`
   text-align: start;
   line-height: 1.5;
 `;
-const ReadMore = styled.span`
-  margin-top: 6px;
-  font-size: 14px;
-  font-weight: 600;
-  color: ${({ theme }) => theme.primary};
-`;
 const Members = styled.div`
   display: flex;
   align-items: center;
@@ -124,7 +117,6 @@ const ProjectCard = ({ project, setOpenModal }) => {
         <Title>{project.title}</Title>
         <Date>{project.date}</Date>
         <Description dir="auto">{project.description}</Description>
-        <ReadMore>Read more</ReadMore>
       </Details>
       <Members>
         {project.member?.map((member) => (
