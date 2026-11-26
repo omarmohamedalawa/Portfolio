@@ -1,5 +1,5 @@
 export const Bio = {
-  name: "Omar Mohamed Alawa",
+  name: "Omar Alawa",
   roles: [
     "AI & Data Product Engineer",
     "Data Engineer",
@@ -418,4 +418,3 @@ export const projects = [
     //webapp: "",
   },
 ];
-
