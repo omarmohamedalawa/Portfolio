@@ -350,7 +350,7 @@ export const projects = [
     title: "SkyLink PowerBI Project",
     //date: "",
     description:
-      "",
+      "A Power BI business analysis of customer churn for SkyLink. The dashboard shows the overall churn rate, the number of customers and churned customers, and breaks churn down by churn category and by state.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/SkyLink-PowerBI-Project.png?raw=true",
     tags: [
@@ -367,7 +367,7 @@ export const projects = [
     title: "Attrition Analysis HR Analytics Project",
     //date: "",
     description:
-      "",
+      "A Tableau analysis of employee attrition in an HR dataset. The dashboard looks at attrition by overtime, department, salary, age, years at the company, environment satisfaction and years since last promotion.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/Attrition_Analysis_HR_Analytics_Project.png?raw=true",
     tags: [
@@ -382,8 +382,8 @@ export const projects = [
     id: 6,
     title: "Visualization Fuel Econ Project",
     //date: "",
-    //description:
-    //"",
+    description:
+      "This project gathers, assesses and cleans a vehicle fuel economy dataset, then visualizes fuel consumption by brand and fuel type and CO2 emissions by fuel type and year using Python, Pandas, Matplotlib and Seaborn.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/visualization_fuel_econ_project.png?raw=true",
     tags: 
@@ -402,8 +402,8 @@ export const projects = [
     id: 7,
     title: "Wrangling Car Project",
     //date: "",
-    //description:
-    //  "",
+    description:
+      "This project wrangles a raw automobile dataset in Python: it gathers the data, assesses tidiness and quality issues, then cleans it by fixing column names, dropping the incomplete normalized-losses column and rows with missing values, and correcting data types.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/wrangle_car_project.png?raw=true",
     tags: [
