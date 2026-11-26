@@ -88,7 +88,7 @@ const Divider = styled.div`
 const CardContainer = styled.div`
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   gap: 28px;
   flex-wrap: wrap;
 `;
