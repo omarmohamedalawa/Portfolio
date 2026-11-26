@@ -92,8 +92,8 @@ const Footer = () => {
         <Logo>Omar Mohamed Alawa</Logo>
         <Nav>
           <NavLink href="#About">About</NavLink>
-          <NavLink href="#Education">Education</NavLink>
           <NavLink href="#Experience">Experience</NavLink>
+          <NavLink href="#Education">Education</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
           <NavLink href="#Projects">Projects</NavLink>
         </Nav>

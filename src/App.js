@@ -50,8 +50,8 @@ function App() {
             <div>
               <Hero />
               <Wrapper>
-                <Education />
                 <Experience />
+                <Education />
               </Wrapper>
                 <Skills />
                 <Projects openModal={openModal} setOpenModal={setOpenModal} />
