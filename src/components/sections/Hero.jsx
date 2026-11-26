@@ -93,8 +93,7 @@ const Title = styled.div`
 const TextLoop = styled.div`
   font-weight: 600;
   font-size: 32px;
-  display: flex;
-  gap: 12px;
+  display: block;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
 
@@ -109,9 +108,18 @@ const TextLoop = styled.div`
   }
 `;
 
-const Span = styled.div`
+const Span = styled.span`
   cursor: pointer;
+  margin-left: 12px;
   color: ${({ theme }) => theme.primary};
+
+  & .Typewriter {
+    display: inline;
+  }
+  & .Typewriter__wrapper,
+  & .Typewriter__cursor {
+    display: inline;
+  }
 `;
 
 const SubTitle = styled.div`
