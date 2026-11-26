@@ -263,7 +263,7 @@ export const projects = [
     id: 101,
     title: "ERP Data Extraction & Automation Pipeline",
     description:
-      "Python scripts pull ERP data over the network and feed Power BI dashboards.",
+      "Engineered Python scripts to retrieve operational data from ERP through network requests, without built-in ERP reports or direct database access. Scheduled extraction and processing workflows feed a centralized analytical data layer connected to Power BI, enabling automated dashboard refreshes and near-real-time operational visibility.",
     image: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/erp_pipeline.png?raw=true",
     tags: ["Python", "ETL", "Automation", "Power BI"],
     category: "Data & AI Engineering",
@@ -272,7 +272,7 @@ export const projects = [
     id: 102,
     title: "AI-Powered Customer Data Extraction",
     description:
-      "n8n and AI-agent workflow that extracts and structures customer data, cutting manual entry.",
+      "Built an n8n and AI-agent-assisted workflow to extract and structure customer information, improving data quality and reducing manual data-entry effort.",
     image: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/ai_customer_extraction.png?raw=true",
     tags: ["n8n", "AI Agents", "LLMs", "Data Quality"],
     category: "Data & AI Engineering",
@@ -281,7 +281,7 @@ export const projects = [
     id: 103,
     title: "Enterprise Data Warehouse",
     description:
-      "Star Schema warehouse integrating ERP, POS and HR data through ETL.",
+      "Designed a centralized analytical warehouse integrating ERP, POS, and HR sources through ETL and a Star Schema, supporting consistent reporting across business functions.",
     image: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/enterprise_data_warehouse.png?raw=true",
     tags: ["SQL Server", "ETL", "Star Schema", "Power BI"],
     category: "Data & AI Engineering",
@@ -291,7 +291,7 @@ export const projects = [
     title: "Arabic Sign Language Translator ASLT",
     //date: "",
     description:
-      "Web app using AI models to convert Arabic sign language into readable text.",
+      "A web application that helps people with special needs (speechless) to communicate with people through artificial intelligence models that convert sign language into readable language. It contains a special part for face-to-face conversations and another part for online group meetings.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/Arabic_Sign_Language_Translator_ASLT.png?raw=true",
     tags: [
@@ -310,7 +310,7 @@ export const projects = [
     title: "NTI Capstone Project Supermarket Sales",
     //date: "",
     description:
-      "Supermarket sales analysis of customer behavior, products and trends by branch.",
+      "This project analyzes a supermarket sales dataset, cleans the data, and extracts insights to better understand customer behavior, product preferences, and sales trends. The analysis covers sales distribution across branches, rush hours, customer types, and product categories.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/nti.jpg?raw=true",
     tags: [
@@ -329,7 +329,7 @@ export const projects = [
     title: "Film Makeer Gide Project",
     //date: "",
     description:
-      "Analysis of IMDb's top 250 films to find what drives a film's success.",
+      "Analysis of the top 250 highest-rated films on IMDb to identify the factors that contribute to a film's success: genre, language, director, actor, and budget. The data is cleaned, explored, and preprocessed with calculated columns such as profit, ROI, and budget range, then visualized to give recommendations for filmmakers.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/film_makeer_gide_Project.png?raw=true",
     tags: [
@@ -345,7 +345,7 @@ export const projects = [
     title: "SkyLink PowerBI Project",
     //date: "",
     description:
-      "Power BI dashboard of SkyLink customer churn by category and by state.",
+      "A Power BI business analysis of customer churn for SkyLink. The dashboard shows the overall churn rate, the number of customers and churned customers, and breaks churn down by churn category and by state.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/SkyLink-PowerBI-Project.png?raw=true",
     tags: [
@@ -362,7 +362,7 @@ export const projects = [
     title: "Attrition Analysis HR Analytics Project",
     //date: "",
     description:
-      "Tableau dashboard of HR employee attrition by overtime, department, salary and age.",
+      "A Tableau analysis of employee attrition in an HR dataset. The dashboard looks at attrition by overtime, department, salary, age, years at the company, environment satisfaction and years since last promotion.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/Attrition_Analysis_HR_Analytics_Project.png?raw=true",
     tags: [
@@ -378,7 +378,7 @@ export const projects = [
     title: "Visualization Fuel Econ Project",
     //date: "",
     description:
-      "Cleaned fuel economy data and visualized fuel use and CO2 emissions.",
+      "This project gathers, assesses and cleans a vehicle fuel economy dataset, then visualizes fuel consumption by brand and fuel type and CO2 emissions by fuel type and year using Python, Pandas, Matplotlib and Seaborn.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/visualization_fuel_econ_project.png?raw=true",
     tags: 
@@ -398,7 +398,7 @@ export const projects = [
     title: "Wrangling Car Project",
     //date: "",
     description:
-      "Python wrangling of a raw automobile dataset: gather, assess and clean.",
+      "This project wrangles a raw automobile dataset in Python: it gathers the data, assesses tidiness and quality issues, then cleans it by fixing column names, dropping the incomplete normalized-losses column and rows with missing values, and correcting data types.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/wrangle_car_project.png?raw=true",
     tags: [
