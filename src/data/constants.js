@@ -7,7 +7,7 @@ export const Bio = {
     "Business Intelligence & S&OP Lead",
   ],
   description:
-    "I build end-to-end data and AI products: ERP/POS/HIS integrations, data warehouses, Power BI, and LLM-based automation (n8n, AI agents, RAG). My work has reached 50+ stakeholders across retail, manufacturing, and healthcare, including an RFM reactivation model that generated EGP 1.5M in incremental revenue and reporting automation that cut manual reporting time by 95%.",
+    "I build end-to-end data and AI products: ERP/POS/HIS integrations, data warehouses, Power BI, and LLM-based automation (n8n, AI agents, RAG). My work has reached 50+ stakeholders across retail, manufacturing, and healthcare, including an RFM reactivation model that contributed approximately EGP 1.5M in incremental revenue and reporting automation that cut manual reporting time by up to 95%.",
   github: "https://www.github.com/omarmohamedalawa/",
   resume: "https://github.com/omarmohamedalawa/Portfolio/raw/main/src/images/cv/Omar_Alawa_CV_AI_Data_Product_Engineer.pdf",
   linkedin: "https://www.linkedin.com/in/omaralawa/",
@@ -24,7 +24,7 @@ export const education = [
     school: "University of Missouri, USA",
     date: "Jan 2025 - Nov 2025",
     grade: " Completed",
-    desc: "Professional Diploma in Entrepreneurship (International Professional Diploma in Entrepreneurship, delivered by Missouri State University). Applied the Disciplined Entrepreneurship framework to problem definition, market analysis, hypothesis testing, and KPI-driven decision-making, and earned the Certified Disciplined Entrepreneur (CDE) designation.",
+    desc: "International Professional Diploma in Entrepreneurship, delivered by Missouri State University and accredited by IBDL Learning Group. Focused on making entrepreneurial decisions grounded in analysis and data.",
     degree: "Professional Diploma in Entrepreneurship",
   },
   {
@@ -33,7 +33,7 @@ export const education = [
     school: "El-Shorouk Academy, Cairo",
     date: "Oct 2018 - May 2023",
     grade: " Graduated",
-    desc: "Graduated in Computer and Control Engineering. My graduation project was an Arabic Sign Language Translator web application, also published as a paper in the PLOMS Journal of AI.",
+    desc: "Graduated in Computer and Control Engineering. Graduation project: an Arabic Sign Language Translator web application.",
     degree: "B.Eng. in Computer & Control Engineering",
   },
   {
@@ -42,6 +42,7 @@ export const education = [
     school: "National Telecommunication Institute (NTI)",
     date: "Apr 2025",
     grade: " Certified",
+    desc: "AI ambassador certification.",
     degree: "AI Ambassadors Program",
   },
   {
@@ -50,7 +51,7 @@ export const education = [
     school: "Instant Software Solutions",
     date: "Aug 2023",
     grade: " Certified",
-    desc: "Data Science Diploma covering Python, SQL, machine learning, and data analysis.",
+    desc: "Data science diploma program.",
     degree: "Data Science Diploma",
   },
   {
@@ -59,6 +60,7 @@ export const education = [
     school: "Huawei ICT Academy",
     date: "Aug 2022",
     grade: " Certified",
+    desc: "Advanced AI certification.",
     degree: "HCIP-AI (Huawei Certified ICT Professional Artificial Intelligence)",
   },
   {
@@ -67,6 +69,7 @@ export const education = [
     school: "Huawei ICT Academy",
     date: "Dec 2021",
     grade: " Certified",
+    desc: "Foundational AI certification.",
     degree: "HCIA-AI (Huawei Certified ICT Associate Artificial Intelligence)",
   },
 ];
@@ -78,7 +81,7 @@ export const experiences = [
     role: "Business Intelligence and S&OP Planning Lead",
     company: "Raif Textile, Cairo, Egypt",
     date: "Jan 2026 - Present",
-    desc: "Built the S&OP and demand planning function from scratch, including demand forecasts and what-if scenario models. Own the S&OP planning cycle, aligning demand forecasts, supply capacity, inventory, and financial targets. Build executive Power BI dashboards covering sales performance, forecast accuracy, inventory health, and margin indicators. Govern performance KPIs across 5+ departments and coordinate cross-functional planning with sales, procurement, supply chain, and leadership.",
+    desc: "Established the company's planning function from the ground up. Designed an integrated S&OP framework connecting sales demand, procurement, supply chain, inventory, and operational planning. Built demand forecasting and scenario-analysis models to support purchasing decisions and resource allocation. Developed inventory and procurement planning methods using demand patterns, inventory positions, consumption rates, and supplier lead times. Designed Power BI dashboards tracking actual versus plan, inventory health, sales trends, and operational KPIs.",
     skills: [
       "S&OP",
       "Demand Forecasting",
@@ -93,7 +96,7 @@ export const experiences = [
     role: "Senior Business Intelligence & Data Analyst",
     company: "Raif Textile, Cairo, Egypt",
     date: "Jul 2025 - Dec 2025",
-    desc: "Designed a centralized Data Warehouse (Star Schema) integrating ERP, POS, and HR data through ETL. Developed an AI-powered customer data extraction module using n8n and AI agents. Delivered RFM customer segmentation and reactivation analysis that generated EGP 1.5M in incremental revenue. Established BI capabilities across Sales, Supply Chain, HR, Operations, and Marketing, with Power BI dashboards used by 50+ stakeholders. Built end-to-end production tracking from order intake through finished-goods delivery.",
+    desc: "Designed a centralized Enterprise Data Warehouse (Star Schema) integrating ERP, POS, HR, and operational data through ETL. Built Python data extraction pipelines and AI-assisted extraction workflows with n8n and AI agents. Delivered RFM customer segmentation and reactivation analysis that contributed approximately EGP 1.5M in incremental revenue. Developed Power BI dashboards across 5+ business functions for 50+ stakeholders. Standardized product, item, customer, and raw material master data. Built end-to-end production tracking from order intake to finished-goods delivery. Automated reporting, cutting manual reporting time by up to 95%.",
     skills: [
       "Data Warehousing",
       "ETL/ELT",
@@ -110,7 +113,7 @@ export const experiences = [
     role: "Healthcare Data Analyst and HIS & ERP System Specialist",
     company: "Ain Shams University Hospitals, Cairo, Egypt",
     date: "Dec 2023 - Jul 2025",
-    desc: "Contributed to a university-hospital digital transformation program across 9+ facilities, including Oncology and Heart Surgery. Developed an integrated reporting solution across 12 hospitals, consolidating HIS and ERP data. Automated dashboards and KPIs covering patient management, laboratories, pharmacy, and finance, reducing reporting time by 95%. Analyzed large operational datasets to support planning and government compliance reporting. Trained 500+ medical and administrative staff on HIS and Odoo ERP workflows.",
+    desc: "Contributed to the digital transformation of 9+ university healthcare facilities, supporting HIS and ERP implementation. Built an integrated reporting solution across 12 hospitals, consolidating HIS and ERP data. Delivered dashboards and KPI frameworks for patient management, laboratories, pharmacy, and finance, reducing manual reporting time by 95%. Analyzed large operational datasets for performance analysis, resource planning, and government compliance reporting. Trained and supported 500+ medical and administrative users.",
     skills: [
       "SQL Server",
       "HIS & Odoo ERP",
@@ -163,10 +166,6 @@ export const skills = [
       {
         name: "TensorFlow",
         image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/TensorFlow.png?raw=true",
-      },
-      {
-        name: "PyTorch",
-        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/PyTorch.png?raw=true",
       },
       {
         name: "Keras",
@@ -248,10 +247,6 @@ export const skills = [
         image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Microsoft_Excel_logo_PNG1.png?raw=true",
       },
       {
-        name: "Google Sheets",
-        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Google%20Sheets_logo.png?raw=true",
-      },
-      {
         name: "Matplotlib",
         image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Matplotlib.png?raw=true",
       },
@@ -268,7 +263,7 @@ export const projects = [
     id: 101,
     title: "ERP Network-Based Data Extraction & Automation Pipeline",
     description:
-      "Engineered Python scripts to retrieve operational data from ERP through network requests, without built-in ERP reports or direct database access. Scheduled extraction and processing workflows feed a centralized analytical data layer connected to Power BI, enabling automated dashboard refreshes and near-real-time operational visibility.",
+      "Python scripts pull operational data from ERP through network requests and feed a central data layer for Power BI dashboards.",
     image: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/erp_pipeline.png?raw=true",
     tags: ["Python", "ETL", "Automation", "Power BI"],
     category: "Data & AI Engineering",
@@ -277,7 +272,7 @@ export const projects = [
     id: 102,
     title: "AI-Powered Customer Data Extraction",
     description:
-      "Built an n8n and AI-agent workflow to extract and structure customer information, improving data quality and reducing manual data-entry effort.",
+      "An n8n and AI-agent workflow that extracts and structures customer data, improving data quality and cutting manual entry.",
     image: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/ai_customer_extraction.png?raw=true",
     tags: ["n8n", "AI Agents", "LLMs", "Data Quality"],
     category: "Data & AI Engineering",
@@ -286,7 +281,7 @@ export const projects = [
     id: 103,
     title: "Enterprise Data Warehouse",
     description:
-      "Designed a centralized analytical warehouse integrating ERP, POS, and HR sources through ETL and a Star Schema, supporting consistent reporting across business functions.",
+      "A centralized Star Schema warehouse integrating ERP, POS and HR sources through ETL for consistent reporting.",
     image: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/enterprise_data_warehouse.png?raw=true",
     tags: ["SQL Server", "ETL", "Star Schema", "Power BI"],
     category: "Data & AI Engineering",
@@ -296,7 +291,7 @@ export const projects = [
     title: "Arabic Sign Language Translator ASLT",
     //date: "",
     description:
-      "A web application that helps people with special needs (speechless) to communicate with people through artificial intelligence models that convert sign language into readable language. This web application contains a special part for face-to- face conversations and another part for online group meetings.",
+      "A web application that uses AI models to convert Arabic sign language into readable text for people with speech difficulties.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/Arabic_Sign_Language_Translator_ASLT.png?raw=true",
     tags: [
@@ -315,7 +310,7 @@ export const projects = [
     title: "NTI Capstone Project Supermarket Sales",
     //date: "",
     description:
-      "This project aims to analyze a supermarket sales dataset, clean the data, and extract insights to better understand customer behavior, product preferences, and sales trends. The analysis covers sales distribution across branches, rush hours, customer types, and product categories.",
+      "Cleaned and analyzed supermarket sales data to understand customer behavior, product preferences and sales trends by branch.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/nti.jpg?raw=true",
     tags: [
@@ -334,7 +329,7 @@ export const projects = [
     title: "Film Makeer Gide Project",
     //date: "",
     description:
-      "This project involves a comprehensive analysis of the top 250 highest-rated films on IMDb to identify essential factors that contribute to a film's success. By examining a wide range of data from these films.",
+      "Analysis of the top 250 highest-rated IMDb films to identify the factors that contribute to a film's success.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/film_makeer_gide_Project.png?raw=true",
     tags: [
@@ -350,7 +345,7 @@ export const projects = [
     title: "SkyLink PowerBI Project",
     //date: "",
     description:
-      "A Power BI business analysis of customer churn for SkyLink. The dashboard shows the overall churn rate, the number of customers and churned customers, and breaks churn down by churn category and by state.",
+      "A Power BI dashboard of SkyLink customer churn, broken down by churn category and by state.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/SkyLink-PowerBI-Project.png?raw=true",
     tags: [
@@ -367,7 +362,7 @@ export const projects = [
     title: "Attrition Analysis HR Analytics Project",
     //date: "",
     description:
-      "A Tableau analysis of employee attrition in an HR dataset. The dashboard looks at attrition by overtime, department, salary, age, years at the company, environment satisfaction and years since last promotion.",
+      "A Tableau dashboard of HR employee attrition by overtime, department, salary, age and years at the company.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/Attrition_Analysis_HR_Analytics_Project.png?raw=true",
     tags: [
@@ -383,7 +378,7 @@ export const projects = [
     title: "Visualization Fuel Econ Project",
     //date: "",
     description:
-      "This project gathers, assesses and cleans a vehicle fuel economy dataset, then visualizes fuel consumption by brand and fuel type and CO2 emissions by fuel type and year using Python, Pandas, Matplotlib and Seaborn.",
+      "Cleaned a vehicle fuel economy dataset and visualized fuel use by brand and CO2 emissions by fuel type and year.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/visualization_fuel_econ_project.png?raw=true",
     tags: 
@@ -403,7 +398,7 @@ export const projects = [
     title: "Wrangling Car Project",
     //date: "",
     description:
-      "This project wrangles a raw automobile dataset in Python: it gathers the data, assesses tidiness and quality issues, then cleans it by fixing column names, dropping the incomplete normalized-losses column and rows with missing values, and correcting data types.",
+      "Python data wrangling of a raw automobile dataset: gathering, assessing quality issues and cleaning it.",
     image:
       "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/wrangle_car_project.png?raw=true",
     tags: [
