@@ -18,8 +18,8 @@ jobs:
       - name: Apply bundle on a content-update branch
         run: |
           git fetch origin bundle-tmp
-          if ! git cat-file -e origin/bundle-tmp:bundle.tar.gz 2>/dev/null; then echo "no bundle yet"; echo SKIP=1 >> $GITHUB_ENV; exit 0; fi
-          git show origin/bundle-tmp:bundle.tar.gz > /tmp/bundle.tar.gz
+          if ! git cat-file -e origin/bundle-tmp:bundle-part-03.txt 2>/dev/null; then echo "bundle incomplete"; echo SKIP=1 >> $GITHUB_ENV; exit 0; fi
+          for n in 00 01 02 03; do git show origin/bundle-tmp:bundle-part-$n.txt; done | base64 -d > /tmp/bundle.tar.gz
           git config user.name "Omar Alawa"
           git config user.email "omarmohamed2591999@gmail.com"
           git checkout -b content-update
