@@ -1,0 +1,51 @@
+name: apply-reorder
+on:
+  push:
+    branches: [bundle2-tmp]
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Apply bundle on a content-update-2 branch
+        run: |
+          git fetch origin bundle2-tmp
+          if ! git cat-file -e origin/bundle2-tmp:bundle-part-00.txt 2>/dev/null; then echo "bundle incomplete"; echo SKIP=1 >> $GITHUB_ENV; exit 0; fi
+          for n in 00; do git show origin/bundle2-tmp:bundle-part-$n.txt; done | base64 -d > /tmp/bundle.tar.gz
+          git config user.name "Omar Alawa"
+          git config user.email "omarmohamed2591999@gmail.com"
+          git checkout -b content-update-2
+          tar xzf /tmp/bundle.tar.gz
+          git add -A
+          git commit -m "Show Experience before Education"
+          git push origin content-update-2
+      - name: Build
+        if: env.SKIP != '1'
+        run: |
+          npm install --legacy-peer-deps
+          CI=false npm run build
+          cp -r build /tmp/build
+      - name: Deploy to gh-pages and fast-forward main
+        if: env.SKIP != '1'
+        run: |
+          git checkout -- . 
+          git clean -fdx -q
+          git fetch origin gh-pages
+          git checkout -b gh-pages origin/gh-pages
+          git rm -rf -q .
+          cp -r /tmp/build/. .
+          touch .nojekyll
+          git add -A
+          git commit -m "Deploy updated portfolio build"
+          git push origin gh-pages
+          git checkout main
+          git merge --ff-only content-update-2
+          git push origin main
