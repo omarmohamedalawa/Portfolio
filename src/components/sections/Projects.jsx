@@ -104,7 +104,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             marginBottom: "40px",
           }}
         >
-          I have worked on a wide range of projects. From Data Wrangling to Visualization & BI and ML & DL. Here are some of my projects.
+          Selected work from enterprise data and AI engineering to Visualization & BI, Data Wrangling, and ML & DL.
         </Desc>
         <ToggleButtonGroup>
           <ToggleButton
@@ -112,6 +112,13 @@ const Projects = ({ openModal, setOpenModal }) => {
             onClick={() => setToggle("all")}
           >
             ALL
+          </ToggleButton>
+          <Divider />
+          <ToggleButton
+            active={toggle === "Data & AI Engineering"}
+            onClick={() => setToggle("Data & AI Engineering")}
+          >
+            Data & AI Engineering
           </ToggleButton>
           <Divider />
           <ToggleButton

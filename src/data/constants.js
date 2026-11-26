@@ -1,77 +1,72 @@
 export const Bio = {
   name: "Omar Mohamed Alawa",
   roles: [
-    "Business Analytics",
-    "Data Analytics",
-    "Data Scientist",
-    //"ML Engineer",
-    //"Data Analyst",
-    //"Dashboard Designer",
+    "AI & Data Product Engineer",
+    "Data Engineer",
+    "Applied AI Engineer",
+    "Business Intelligence & S&OP Lead",
   ],
-  description: "",
-  //"Junior Data Analytics Professional with one year of experience specializing in data analysis and visualization. Demonstrating proficiency in transforming raw data into meaningful insights to support evidence-based decision-making processes. Skilled in a growing array of analytics software, including Python, SQL, Power BI, Excel, and Tableau. Committed to delivering valuable results and contributing to data-driven initiatives within organizations.",
+  description:
+    "I build end-to-end data and AI products: ERP/POS/HIS integrations, data warehouses, Power BI, and LLM-based automation (n8n, AI agents, RAG). My work has reached 50+ stakeholders across retail, manufacturing, and healthcare, including an RFM reactivation model that generated EGP 1.5M in incremental revenue and reporting automation that cut manual reporting time by 95%.",
   github: "https://www.github.com/omarmohamedalawa/",
-  resume: "https://drive.google.com/file/d/1uOcb28VP9IuV4cl0unim7ywKFk0Zt9wo/view?usp=drive_link",
-  linkedin: "https://www.linkedin.com/in/omarmohamedalawa/",
-  Whatsapp: "https://api.whatsapp.com/send?phone=2001126935422",
+  resume: "https://github.com/omarmohamedalawa/Portfolio/raw/main/src/images/cv/Omar_Alawa_CV_AI_Data_Product_Engineer.pdf",
+  linkedin: "https://www.linkedin.com/in/omaralawa/",
+  Whatsapp: "https://api.whatsapp.com/send?phone=201126935422",
   insta: "https://www.instagram.com/omarmohamedalawa/",
   facebook: "https://www.facebook.com/omarmohamedalawa/",
-  email: "mailto:omarmohamed2591999@gmail.com?",
+  email: "mailto:omarmohamed2591999@gmail.com",
 };
 
 export const education = [
   {
     id: 0,
-    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/ElShorouk_logo.png?raw=true",
-    school: "El-Shorouk Academy",
-    date: "Oct 2018 - May 2023",
-    grade: " Good",
-    desc: "I am a graduate in Computer and Control Engineering from El-Shorouk Academy. I studied courses in programming, electronics, control systems, microprocessors, computer networks, and operating systems. During my studies, I gained experience in designing and programming embedded control systems, software development, and industrial process automation.",
-    degree: "Bachelor of Computer and Control Engineering",
+    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/University-of-Missouri.png?raw=true",
+    school: "University of Missouri, USA",
+    date: "Jan 2025 - Nov 2025",
+    grade: " Completed",
+    desc: "Professional Diploma in Entrepreneurship (International Professional Diploma in Entrepreneurship, delivered by Missouri State University). Applied the Disciplined Entrepreneurship framework to problem definition, market analysis, hypothesis testing, and KPI-driven decision-making, and earned the Certified Disciplined Entrepreneur (CDE) designation.",
+    degree: "Professional Diploma in Entrepreneurship",
   },
   {
     id: 1,
-    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/nti_logo.png?raw=true",
-    school: "National Telecommunication Institute",
-    date: "Jul 2024 - sep 2024",
-    grade: " 89%",
-    desc: "I completed a 90-hour Data Science Diploma program, studying data analysis, machine learning, statistics, and data visualization tools. This intensive program equipped me with practical skills in Python, SQL, business intelligence platforms and 30-hour for Skills for the Freelance Professional.",
-    degree: "Data Analysis",
+    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/ElShorouk_logo.png?raw=true",
+    school: "El-Shorouk Academy, Cairo",
+    date: "Oct 2018 - May 2023",
+    grade: " Graduated",
+    desc: "Graduated in Computer and Control Engineering. My graduation project was an Arabic Sign Language Translator web application, also published as a paper in the PLOMS Journal of AI.",
+    degree: "B.Eng. in Computer & Control Engineering",
   },
   {
     id: 2,
-    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/instant_logo.jpg?raw=true",
-    school: "Instant Software Solutions",
-    date: "Aug 2022 - Aug 2023",
-    grade: " excellent",
-    desc: "I completed a 150-hour Data Science Diploma program, studying data analysis, machine learning, statistics, and data visualization tools. This intensive program equipped me with practical skills in Python, SQL, and business intelligence platforms.",
-    degree: "Data Science Diploma",
+    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/nti_logo.png?raw=true",
+    school: "National Telecommunication Institute (NTI)",
+    date: "Apr 2025",
+    grade: " Certified",
+    degree: "AI Ambassadors Program",
   },
   {
     id: 3,
-    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/huawei_logo_PNG1.png?raw=true",
-    school: "Huawei ICT Acadmy",
-    date: "Aug 2022",
+    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/instant_logo.jpg?raw=true",
+    school: "Instant Software Solutions",
+    date: "Aug 2023",
     grade: " Certified",
-    //desc: "",
-    degree: "HCIP-AI (Huawei Certified ICT Professional Artificial Intelligence)",
+    desc: "Data Science Diploma covering Python, SQL, machine learning, and data analysis.",
+    degree: "Data Science Diploma",
   },
   {
     id: 4,
     img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/huawei_logo_PNG1.png?raw=true",
-    school: "Huawei ICT Acadmy",
-    date: "May 2022",
+    school: "Huawei ICT Academy",
+    date: "Aug 2022",
     grade: " Certified",
-    //desc: "",
-    degree: "Introduction Leadership Skills",
+    degree: "HCIP-AI (Huawei Certified ICT Professional Artificial Intelligence)",
   },
   {
     id: 5,
     img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/huawei_logo_PNG1.png?raw=true",
-    school: "Huawei ICT Acadmy",
+    school: "Huawei ICT Academy",
     date: "Dec 2021",
     grade: " Certified",
-    //desc: "",
     degree: "HCIA-AI (Huawei Certified ICT Associate Artificial Intelligence)",
   },
 ];
@@ -79,161 +74,120 @@ export const education = [
 export const experiences = [
   {
     id: 1,
-    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Ain_Shams_University_Hospitals_Logo.jpg?raw=true",
-    role: "Data Analyst",
-    company: "Ain Shams University Hospitals",
-    date: "Jan 2024 - present",
-    desc: "Collaboration with cross-functional teams to identify trends, patterns, and opportunities for process improvement. Use data analysis and data visualization tools to extract, transform, and analyze the data. Transformed analytical findings into clear and concise reports and interactive dashboards to enable stakeholders to explore data visually. Provide decision-makers with the necessary information to make informed choices about healthcare policies and future strategies for the hospital. Significantly reduced the time and effort spent on statistical work by 80%, allowing for more resources to be allocated to improving healthcare.",
+    img: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/logos/Raif_Textile_logo.jpg?raw=true",
+    role: "Business Intelligence and S&OP Planning Lead",
+    company: "Raif Textile, Cairo, Egypt",
+    date: "Jan 2026 - Present",
+    desc: "Built the S&OP and demand planning function from scratch, including demand forecasts and what-if scenario models. Own the S&OP planning cycle, aligning demand forecasts, supply capacity, inventory, and financial targets. Build executive Power BI dashboards covering sales performance, forecast accuracy, inventory health, and margin indicators. Govern performance KPIs across 5+ departments and coordinate cross-functional planning with sales, procurement, supply chain, and leadership.",
     skills: [
-    "Statistical Data Analysis",
-    "MS SQL Server",
-    "Microsoft Excel",
-    "Data Visualization",
-    ]
+      "S&OP",
+      "Demand Forecasting",
+      "Power BI",
+      "KPI Design",
+      "Inventory Planning",
+    ],
   },
   {
     id: 2,
-    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Ain_Shams_University_Hospitals_Logo.jpg?raw=true",
-    role: "HIS Implementation Specialist",
-    company: "Ain Shams University Hospitals",
-    date: "Jan 2024 - present",
-    desc: "Contributing to the digital transformation project for healthcare for the first time in Egyptian university hospitals. Conducting training courses for doctors, nurses, employees, and others on dealing with software and raising their professional competence.",
+    img: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/logos/Raif_Textile_logo.jpg?raw=true",
+    role: "Senior Business Intelligence & Data Analyst",
+    company: "Raif Textile, Cairo, Egypt",
+    date: "Jul 2025 - Dec 2025",
+    desc: "Designed a centralized Data Warehouse (Star Schema) integrating ERP, POS, and HR data through ETL. Developed an AI-powered customer data extraction module using n8n and AI agents. Delivered RFM customer segmentation and reactivation analysis that generated EGP 1.5M in incremental revenue. Established BI capabilities across Sales, Supply Chain, HR, Operations, and Marketing, with Power BI dashboards used by 50+ stakeholders. Built end-to-end production tracking from order intake through finished-goods delivery.",
     skills: [
-      "System Administration",
-      "Technical Support",
-      "Employee Training",
-      "Software System Analysis",   
-      "ERP Software",
-      "Troubleshooting",
-    ]
+      "Data Warehousing",
+      "ETL/ELT",
+      "n8n",
+      "AI Agents",
+      "RFM",
+      "Power BI",
+      "Python",
+    ],
   },
   {
     id: 3,
-    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/huawei_logo_PNG1.png?raw=true",
-    role: "Huawei ICT Academy Ambassador",
-    company: "Huawei",
-    date: "May 2022 - Dec 2023 ",
-    desc: "Worked in first round of Huawei ICT Academy and worked to create this project. Serve as liaison between El-Shorouk Academy administration and its students and Huawei ICT Academy, enhancing collaboration between two entities. Cultivate positive representation and actively engage in marketing various Huawei ICT Academy events and public initiatives. Contribute to content creation on social media, collecting pertinent data, and disseminating information about training,courses, competitions, etc. Facilitate communication with students, helping in problem resolution. Foster brand awareness through word-of-mouth and social media marketing. Provide constructive feedback and innovative ideas regarding Huawei ICT Academy's new services.",
+    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Ain_Shams_University_Hospitals_Logo.jpg?raw=true",
+    role: "Healthcare Data Analyst and HIS & ERP System Specialist",
+    company: "Ain Shams University Hospitals, Cairo, Egypt",
+    date: "Dec 2023 - Jul 2025",
+    desc: "Contributed to a university-hospital digital transformation program across 9+ facilities, including Oncology and Heart Surgery. Developed an integrated reporting solution across 12 hospitals, consolidating HIS and ERP data. Automated dashboards and KPIs covering patient management, laboratories, pharmacy, and finance, reducing reporting time by 95%. Analyzed large operational datasets to support planning and government compliance reporting. Trained 500+ medical and administrative staff on HIS and Odoo ERP workflows.",
     skills: [
-    "Artificial Intelligence (AI)",
-    "Data Collection",
-    "Social media moderation",
-    "Analytical Skills",
-    "Effective Communication",
-    "Leadership",
-    "Decision Making",
+      "SQL Server",
+      "HIS & Odoo ERP",
+      "Dashboards & KPIs",
+      "Data Integration",
+      "Training",
     ],
   },
   {
     id: 4,
-    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/instant_logo.jpg?raw=true",
-    role: "AI Developer",
-    company: "Instant Software Solutions",
-    date: "Jul 2023 - Aug 2023",
-    desc: "",
+    img: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/logos/Faculty_of_Medicine_Ain_Shams_logo.jpg?raw=true",
+    role: "Product Owner (Part-Time)",
+    company: "Faculty of Medicine, Ain Shams University, Cairo, Egypt",
+    date: "Mar 2025 - Jun 2025",
+    desc: "Led the lifecycle of an Odoo-based digital platform for medical interns, translating user needs into requirements, priorities, and delivery plans. Coordinated developers, medical staff, and stakeholders to deliver task assignment, trainer approval, scheduling, and performance-reporting workflows, reducing manual workload by 90%.",
     skills: [
-      "Python",
-      "NumPy",
-      "Pandas",
-      "SciPy",
-      "Scikit-Learn",
-      "TensorFlow",
-      "Keras",
-      "OpenCV",
-      "Matplotlib",
-      "Seabron",
+      "Product Ownership",
+      "Requirements Analysis",
+      "Odoo",
+      "Stakeholder Management",
+    ],
+  },
+  {
+    id: 5,
+    img: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/huawei_logo_PNG1.png?raw=true",
+    role: "Huawei ICT Academy Ambassador (Volunteer)",
+    company: "Huawei, Smart Village, Egypt",
+    date: "May 2022 - Dec 2023",
+    desc: "Supported academy launch and operations; organized workshops and international competition activities for 500+ students.",
+    skills: [
+      "Artificial Intelligence (AI)",
+      "Event Organization",
+      "Leadership",
     ],
   },
 ];
 
-
 export const skills = [
   {
-    title: "Visualization & BI",
+    title: "Applied AI & Automation",
     skills: [
       {
-        name: "Power BI",
-        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Power-BI-Logo-PNG_001.png?raw=true",
+        name: "n8n",
+        image: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/logos/n8n.png?raw=true",
       },
-      {
-        name: "Tableau",
-        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/tableau-software-seeklogo.png?raw=true",
-      },
-      {
-        name: "Looker",
-        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/looker-icon-svgrepo-com.png?raw=true",
-      },
-      {
-        name: "Matplotlib",
-        image:
-          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Matplotlib.png?raw=true",
-      },
-      {
-        name: "Seaborn",
-        image:
-          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/seaborn-seeklogo.png?raw=true",
-      },
-    ],
-  },
-  {
-    title: "Machine Learning & AI",
-    skills: [
       {
         name: "Scikit-learn",
-        image:
-          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/scikit-learn.png?raw=true",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/scikit-learn.png?raw=true",
       },
       {
         name: "TensorFlow",
-        image:
-          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/TensorFlow.png?raw=true",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/TensorFlow.png?raw=true",
       },
       {
         name: "PyTorch",
-        image:
-          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/PyTorch.png?raw=true",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/PyTorch.png?raw=true",
       },
       {
         name: "Keras",
-        image:
-          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Keras.png?raw=true",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Keras.png?raw=true",
       },
     ],
   },
   {
-    title: "Data Processing",
+    title: "Data Engineering & Databases",
     skills: [
       {
         name: "MS SQL Server",
-        image:
-        "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/microsoft-sql-server-logo-svgrepo-com%20(1).png?raw=true"
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/microsoft-sql-server-logo-svgrepo-com%20(1).png?raw=true",
       },
       {
-        name: "MySQL",
-        image:
-        "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/MySQL_logo_PNG1.png?raw=true"
+        name: "PostgreSQL",
+        image: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/logos/PostgreSQL.png?raw=true",
       },
       {
         name: "Python",
-        image:
-        "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Python_logo_PNG1.png?raw=true"
-      },
-      {
-        name: "R",
-        image:
-        "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/R.png?raw=true"
-      },
-      {
-        name: "MATLAB",
-        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/MATLAB_Logo.png?raw=true",
-      },
-      {
-        name: "Excel",
-        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Microsoft_Excel_logo_PNG1.png?raw=true",
-      },
-      {
-        name: "Google Sheets",
-        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Google%20Sheets_logo.png?raw=true",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Python_logo_PNG1.png?raw=true",
       },
       {
         name: "Pandas",
@@ -246,43 +200,93 @@ export const skills = [
     ],
   },
   {
-    title: "Development & Deployment",
+    title: "Backend & Application Development",
     skills: [
       {
-        name: "Google Colab",
-        image:
-          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Google_Colab.png?raw=true",
+        name: "FastAPI",
+        image: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/logos/FastAPI.png?raw=true",
       },
       {
-        name: "Jupyter",
-        image:
-          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Jupyter.png?raw=true",
+        name: "React",
+        image: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/logos/React.png?raw=true",
       },
       {
-        name: "VS Code",
-        image:
-          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/VS_Code.png?raw=true",
+        name: "Next.js",
+        image: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/logos/Nextjs.png?raw=true",
       },
       {
-        name: "GitHub",
-        image:
-          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/GitHub.png?raw=true",
+        name: "Docker",
+        image: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/logos/Docker.png?raw=true",
       },
       {
         name: "Git",
-        image:
-          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Git.png?raw=true",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Git.png?raw=true",
       },
       {
-        name: "Figma",
-        image:
-          "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Figma.png?raw=true",
+        name: "GitHub",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/GitHub.png?raw=true",
+      },
+    ],
+  },
+  {
+    title: "Analytics & BI",
+    skills: [
+      {
+        name: "Power BI",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Power-BI-Logo-PNG_001.png?raw=true",
+      },
+      {
+        name: "Tableau",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/tableau-software-seeklogo.png?raw=true",
+      },
+      {
+        name: "Excel",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Microsoft_Excel_logo_PNG1.png?raw=true",
+      },
+      {
+        name: "Google Sheets",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Google%20Sheets_logo.png?raw=true",
+      },
+      {
+        name: "Matplotlib",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/Matplotlib.png?raw=true",
+      },
+      {
+        name: "Seaborn",
+        image: "https://github.com/omarmohamedalawa/Omar_Alawa_Portfolio/blob/main/src/images/logos/seaborn-seeklogo.png?raw=true",
       },
     ],
   },
 ];
 
 export const projects = [
+  {
+    id: 101,
+    title: "ERP Network-Based Data Extraction & Automation Pipeline",
+    description:
+      "Engineered Python scripts to retrieve operational data from ERP through network requests, without built-in ERP reports or direct database access. Scheduled extraction and processing workflows feed a centralized analytical data layer connected to Power BI, enabling automated dashboard refreshes and near-real-time operational visibility.",
+    image: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/erp_pipeline.png?raw=true",
+    tags: ["Python", "ETL", "Automation", "Power BI"],
+    category: "Data & AI Engineering",
+  },
+  {
+    id: 102,
+    title: "AI-Powered Customer Data Extraction",
+    description:
+      "Built an n8n and AI-agent workflow to extract and structure customer information, improving data quality and reducing manual data-entry effort.",
+    image: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/ai_customer_extraction.png?raw=true",
+    tags: ["n8n", "AI Agents", "LLMs", "Data Quality"],
+    category: "Data & AI Engineering",
+  },
+  {
+    id: 103,
+    title: "Enterprise Data Warehouse",
+    description:
+      "Designed a centralized analytical warehouse integrating ERP, POS, and HR sources through ETL and a Star Schema, supporting consistent reporting across business functions.",
+    image: "https://github.com/omarmohamedalawa/Portfolio/blob/main/src/images/project/enterprise_data_warehouse.png?raw=true",
+    tags: ["SQL Server", "ETL", "Star Schema", "Power BI"],
+    category: "Data & AI Engineering",
+  },
   {
     id: 1,
     title: "Arabic Sign Language Translator ASLT",
