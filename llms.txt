@@ -1,0 +1,18 @@
+# Omar Mohamed Alawa
+
+> AI & Data Product Engineer based in Cairo, Egypt. Builds end-to-end data and AI products: ERP/POS/HIS integrations, data warehouses, Power BI, and LLM-based automation (n8n, AI agents, RAG). Also known as Omar Alawa.
+
+## About
+
+Omar Mohamed Alawa works across data engineering, business intelligence and applied AI. His work has reached 50+ stakeholders across retail, manufacturing and healthcare, including an RFM reactivation model that generated EGP 1.5M in incremental revenue and reporting automation that cut manual reporting time by 95%.
+
+## Links
+
+- [Portfolio](https://omarmohamedalawa.github.io/Portfolio/)
+- [LinkedIn](https://www.linkedin.com/in/omaralawa/)
+- [GitHub](https://github.com/omarmohamedalawa)
+- [Resume (PDF)](https://github.com/omarmohamedalawa/Portfolio/raw/main/src/images/cv/Omar_Alawa_CV_AI_Data_Product_Engineer.pdf)
+
+## Contact
+
+- Email: omarmohamed2591999@gmail.com
